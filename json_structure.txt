@@ -1,0 +1,141 @@
+det_ingrs.json -----
+{'valid': [True, True, True, True, True, True, True, True], 'id': '292c9b2c48', 'ingredients': [{'text': 'chicken'}, {'text': 'no - sugar - added peanut butter'}, {'text': 'habanero pepper'}, {'text': 'green onions'}, {'text': 'onions'}, {'text': 'tomatoes'}, {'text': 'palm oil'}, {'text': 'salt & freshly ground black pepper'}]}
+
+{
+"valid":[
+	true,
+	true,
+	true,
+	true,
+	true,
+	true,
+	true,
+	true,
+	true
+],
+"id":"000033e39b",
+"ingredients":[
+	{
+	"text":"elbow macaroni"
+	},
+	{
+	"text":"American cheese"
+	},
+	{
+	"text":"celery"
+	},
+	{
+	"text":"green peppers"
+	},
+	{
+	"text":"pimentos"
+	},
+	{
+	"text":"mayonnaise"
+	},
+	{
+	"text":"vinegar"
+	},
+	{
+	"text":"salt"
+	},
+	{
+	"text":"dry dill weed"
+	}
+  ]
+}
+
+----- layer1.json -----
+
+{"ingredients": [{"text": "1 c. elbow macaroni"}, {"text": "1 c. cubed American cheese (4 ounce.)"}, {"text": "1/2 c. sliced celery"}, {"text": "1/2 c. minced green pepper"}, {"text": "3 tbsp. minced pimento"}, {"text": "1/2 c. mayonnaise or possibly salad dressing"}, {"text": "1 tbsp. vinegar"}, {"text": "3/4 teaspoon salt"}, {"text": "1/2 teaspoon dry dill weed"}], "url": "http://cookeatshare.com/recipes/dilly-macaroni-salad-49166", "partition": "train", "title": "Dilly Macaroni Salad Recipe", "id": "000033e39b", "instructions": [{"text": "Cook macaroni according to package directions; drain well."}, {"text": "Cold."}, {"text": "Combine macaroni, cheese cubes, celery, green pepper and pimento."}, {"text": "Blend together mayonnaise or possibly salad dressing, vinegar, salt and dill weed; add in to macaroni mix."}, {"text": "Toss lightly."}, {"text": "Cover and refrigeratewell."}, {"text": "Serve salad in lettuce lined bowl if you like."}, {"text": "Makes 6 servings."}]},
+
+{
+"ingredients":[
+	{
+		"text":"1 c. elbow macaroni"
+	},
+	{
+		"text":"1 c. cubed American cheese (4 ounce.)"
+	},
+	{
+		"text":"1/2 c. sliced celery"
+	},
+	{
+		"text":"1/2 c. minced green pepper"
+	},
+	{
+		"text":"3 tbsp. minced pimento"
+	},
+	{
+		"text":"1/2 c. mayonnaise or possibly salad dressing"
+	},
+	{
+		"text":"1 tbsp. vinegar"
+	},
+	{
+		"text":"3/4 teaspoon salt"
+	},
+	{
+		"text":"1/2 teaspoon dry dill weed"
+	}
+],
+"url":"http://cookeatshare.com/recipes/dilly-macaroni-salad-49166",
+"partition":"train",
+"title":"Dilly Macaroni Salad Recipe",
+"id":"000033e39b",
+"instructions":[
+	{
+	"text":"Cook macaroni according to package directions; drain well."
+	},
+	{
+	"text":"Cold."
+	},
+	{
+	"text":"Combine macaroni, cheese cubes, celery, green pepper and pimento."
+	},
+	{
+	"text":"Blend together mayonnaise or possibly salad dressing, vinegar, salt and dill weed; add in to macaroni mix."
+	},
+	{
+	"text":"Toss lightly."
+	},
+	{
+	"text":"Cover and refrigeratewell."
+	},
+	{
+	"text":"Serve salad in lettuce lined bowl if you like."
+	},
+	{
+	"text":"Makes 6 servings."
+	}
+  ]
+}
+
+
+dict_keys(['ingredients', 'url', 'partition', 'title', 'id', 'instructions'])
+
+------ layer2.json -----
+{"id":"00003a70b1","images":[{"id":"3e233001e2.jpg","url":"http:\/\/img.sndimg.com\/food\/image\/upload\/w_512,h_512,c_fit,fl_progressive,q_95\/v1\/img\/recipes\/47\/91\/49\/picaYYmb9.jpg"},{"id":"7f749987f9.jpg","url":"http:\/\/img.sndimg.com\/food\/image\/upload\/w_512,h_512,c_fit,fl_progressive,q_95\/v1\/img\/recipes\/47\/91\/49\/picpy37SW.jpg"},{"id":"aaf6b2dcd3.jpg","url":"http:\/\/img.sndimg.com\/food\/image\/upload\/w_512,h_512,c_fit,fl_progressive,q_95\/v1\/img\/recipes\/47\/91\/49\/picX9CNE2.jpg"}]},
+
+{
+    "id": "00003a70b1",
+    "images": [
+        {
+            "id": "3e233001e2.jpg",
+            "url": "http:\/\/img.sndimg.com\/food\/image\/upload\/w_512,h_512,c_fit,fl_progressive,q_95\/v1\/img\/recipes\/47\/91\/49\/picaYYmb9.jpg"
+        },
+        {
+            "id": "7f749987f9.jpg",
+            "url": "http:\/\/img.sndimg.com\/food\/image\/upload\/w_512,h_512,c_fit,fl_progressive,q_95\/v1\/img\/recipes\/47\/91\/49\/picpy37SW.jpg"
+        },
+        {
+            "id": "aaf6b2dcd3.jpg",
+            "url": "http:\/\/img.sndimg.com\/food\/image\/upload\/w_512,h_512,c_fit,fl_progressive,q_95\/v1\/img\/recipes\/47\/91\/49\/picX9CNE2.jpg"
+        }
+    ]
+}
+
+dict_keys(['id', 'images'])
+
+
+

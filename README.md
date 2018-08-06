@@ -15,7 +15,13 @@ Summer research summary repo
 ### Weekend 
 
 ### 2018.8.6
-#### 1. Figure out json inforamtions
+#### 1. Figure out json inforamtions &radic;  See json_structure.txt
+##### Det_ingrs.json  -> only one string should divide then convert to json information 
+##### Layer1.json -> dict_keys(['ingredients', 'url', 'partition', 'title', 'id', 'instructions'])  &radic;
+url stands for website contain ingredients,title,instructions
+##### Layer2.json -> dict_keys(['id', 'images']) image = image_id + url(more than one sometime) &radic;
+
 #### 2. Try to clean dataset and connect json information accordingly to image
-#### 3. Finish reading paper
-#### 4. Find relative works
+##### How to find the image from json information
+#### 3. Finish reading paper &radic;
+#### 4. Find relative works 
