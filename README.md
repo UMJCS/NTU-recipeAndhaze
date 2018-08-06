@@ -12,3 +12,10 @@ Summer research summary repo
 #### 4. Read paper http://im2recipe.csail.mit.edu/im2recipe.pdf
 #### 5. Server environment cuda cudnn pytorch
 
+### Weekend 
+
+### 2018.8.6
+#### 1. Figure out json inforamtions
+#### 2. Try to clean dataset and connect json information accordingly to image
+#### 3. Finish reading paper
+#### 4. Find relative works
