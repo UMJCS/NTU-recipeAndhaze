@@ -22,6 +22,11 @@ url stands for website contain ingredients,title,instructions
 ##### Layer2.json -> dict_keys(['id', 'images']) image = image_id + url(more than one sometime) &radic;
 
 #### 2. Try to clean dataset and connect json information accordingly to image
-##### How to find the image from json information
+##### How to find the image from json information 
 #### 3. Finish reading paper &radic;
 #### 4. Find relative works 
+
+### 2018.8.7
+#### 1. Figure out github code and dataset structure
+#### 2. Fail to download dataset (92 Gbytes) to remote severe
+#### 3. Open pkl and mbd dataset 
