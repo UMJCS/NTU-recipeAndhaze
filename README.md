@@ -30,3 +30,7 @@ url stands for website contain ingredients,title,instructions
 #### 1. Figure out github code and dataset structure
 #### 2. Fail to download dataset (92 Gbytes) to remote severe
 #### 3. Open pkl and mbd dataset 
+
+TodoList 
+1. Read layer2.json to rule out non-image id and summary image number for each id
+2. Verify id according pair 
