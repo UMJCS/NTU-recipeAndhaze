@@ -22,15 +22,21 @@ url stands for website contain ingredients,title,instructions
 ##### Layer2.json -> dict_keys(['id', 'images']) image = image_id + url(more than one sometime) &radic;
 
 #### 2. Try to clean dataset and connect json information accordingly to image
-##### How to find the image from json information 
+##### How to find the image from json information &radic;
 #### 3. Finish reading paper &radic;
 #### 4. Find relative works 
 
 ### 2018.8.7
-#### 1. Figure out github code and dataset structure
-#### 2. Fail to download dataset (92 Gbytes) to remote severe
-#### 3. Open pkl and mbd dataset 
+#### 1. Figure out github code and dataset structure &radic;
+#### 2. ~~Fail to download dataset (92 Gbytes) to remote severe~~
+#### 3. Open pkl and mbd dataset &radic;
 
 TodoList 
-1. Read layer2.json to rule out non-image id and summary image number for each id
-2. Verify id according pair 
+1. ~~Read layer2.json to rule out non-image id and summary image number for each id~~  &radic;
+2. ~~Verify id according pair~~ &radic;
+
+### 2018.8.8
+#### 1. Succeed in linking train/val/test keys with dataset imagepath &radic;
+#### 2. Write standary image path .txt for training in DeepLearning network input &radic;
+#### 3. Read relative paper for thier usage of dataset
+#### 4. Succeed in reading all infomation in layer1/layer2 JSON &radic;
