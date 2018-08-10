@@ -44,5 +44,8 @@ TodoList
 ### 2018.8.9 festival off
 
 ### 2018.8.10 
-#### 1. Generate val.txt/test.txt for Densenet trainning
+#### 1. Generate val.txt/test.txt for Densenet trainning &radic;
 #### 2. Relative paper
+#### 3. New dataset food-101/ingredient101/recipe5K
+#### 4. Clean dataset and find construction for training
+
