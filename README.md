@@ -40,3 +40,9 @@ TodoList
 #### 2. Write standary image path .txt for training in DeepLearning network input &radic;
 #### 3. Read relative paper for thier usage of dataset
 #### 4. Succeed in reading all infomation in layer1/layer2 JSON &radic;
+
+### 2018.8.9 festival off
+
+### 2018.8.10 
+#### 1. Generate val.txt/test.txt for Densenet trainning
+#### 2. Relative paper
