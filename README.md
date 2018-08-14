@@ -21,7 +21,7 @@ Summer research summary repo
 url stands for website contain ingredients,title,instructions
 ##### Layer2.json -> dict_keys(['id', 'images']) image = image_id + url(more than one sometime) &radic;
 
-#### 2. Try to clean dataset and connect json information accordingly to image
+#### 2. Try to clean dataset and connect json information accordingly to image  &radic;
 ##### How to find the image from json information &radic;
 #### 3. Finish reading paper &radic;
 #### 4. Find relative works 
@@ -38,7 +38,7 @@ TodoList
 ### 2018.8.8
 #### 1. Succeed in linking train/val/test keys with dataset imagepath &radic;
 #### 2. Write standary image path .txt for training in DeepLearning network input &radic;
-#### 3. Read relative paper for thier usage of dataset
+#### 3. Read relative paper for thier usage of dataset  &radic;
 #### 4. Succeed in reading all infomation in layer1/layer2 JSON &radic;
 
 ### 2018.8.9 festival off
@@ -49,3 +49,11 @@ TodoList
 #### 3. New dataset food-101/ingredient101/recipe5K
 #### 4. Clean dataset and find construction for training
 
+### 2018.8.12 
+#### 1.Generate all image path and labels for training in Resnet &radic;
+#### 2.Modify resnet structure and dataload &radic;
+
+### 2018.8.14 
+#### 1. link food-101 dataset with ingredient-101 dataset (ingredient and image information combine) &radic;
+#### 2. Code PathGenerator.py ImageGenerator.py VectorGenerator.py  &radic;
+#### 3. Training Resnet50 (On going...
