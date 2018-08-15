@@ -56,4 +56,10 @@ TodoList
 ### 2018.8.14 
 #### 1. link food-101 dataset with ingredient-101 dataset (ingredient and image information combine) &radic;
 #### 2. Code PathGenerator.py ImageGenerator.py VectorGenerator.py  &radic;
-#### 3. Training Resnet50 (On going...
+#### 3. Training Resnet18 (On going... 
+
+### 2018.8.15
+#### 1.Finish Checking dataset
+#### 2. Finish modify resnet code
+#### Training !!!! Loss initial: 10.8
+
