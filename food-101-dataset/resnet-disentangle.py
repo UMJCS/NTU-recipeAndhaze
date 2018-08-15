@@ -356,6 +356,7 @@ class ResNet(nn.Module):
         x = self.deconv9(x)
         #print(x.shape)
         x = self.sigmoid(x)
+        print("end model")
         return predicts,x
 
 
@@ -438,7 +439,7 @@ CUDA = 0#True
 SEED = 1
 BATCH_SIZE = 32
 LOG_INTERVAL = 10
-EPOCHS = 10000
+EPOCHS = 7
 learning_rate=1e-3
 
 torch.manual_seed(SEED)
@@ -475,13 +476,13 @@ if CUDA:
     criterion.cuda()
 
 def loss_function(predicts_V,labels,data,x): #-> Variable:
-    CE_V = criterion(predicts_V, labels - 1)
+    CE_V = criterion(predicts_V, labels)
     RE = torch.sum((data-x)**2)*(1e-5)
     #CE_T = criterion(predicts_T, labels - 1)
     #RE_latent = torch.sum((image_latent-ingredient_latent)**2)
-    print('Loss ====> CE_V: {} | RE: {} |'.format(CE_V, RE))
+    print('Loss ====> CE_V: {} | RE: {} | Loss: {}'.format(CE_V, RE,CE_V+RE))
     #print('Loss ====> CE_V: {} | CE_T: {} | RE_latent: {} |'.format(CE_V, CE_T,RE_latent))
-    return CE_V+RE#+CE_T#+0.01*RE_latent
+    return CE_V,RE#+CE_T#+0.01*RE_latent
 
 def top_match(predicts, labels):
     sorted_predicts = predicts.cpu().data.numpy().argsort()
@@ -508,6 +509,7 @@ def train(epoch):
     total_time = time.time()
 
     for batch_idx, (data, labels) in enumerate(train_loader):
+        print("<------Round start----->")
       #  if batch_idx == 1:
       #      break
         start_time = time.time()
@@ -523,10 +525,14 @@ def train(epoch):
         predicts_V,x = model(data)
         
         # calculate scalar loss
-        loss = loss_function(predicts_V, labels, data, x)
+        CE_V, RE = loss_function(predicts_V, labels, data, x)
         # calculate the gradient of the loss w.r.t. the graph leaves
         # i.e. input variables -- by the power of pytorch!
+        #print("CE_V: "+str(CE_V))
+        #print("RE: "+str(RE))
+        loss = CE_V + RE
         loss.backward()
+        print(" End backward !!!!!!!!")
         train_loss += loss.data
         optimizer.step()
         #compute accuracy
@@ -542,12 +548,12 @@ def train(epoch):
         top5_accuracy_cur_V = hits_V / float(labels.size(0))
         #top5_accuracy_total_T += hits_T
         #top5_accuracy_cur_T = hits_T / float(labels.size(0))
-
-        if batch_idx == 0:
+        #print("end accuracy")
+        if epoch == 1 and batch_idx == 0:
             with io.open(result_path + 'train_loss.txt', 'a', encoding='utf-8') as file:
-                file.write('%f\n' % (train_loss / len(train_loader)))
+                file.write('%f\n' % (train_loss))
 
-        if batch_idx % LOG_INTERVAL == 0:
+        elif batch_idx % LOG_INTERVAL == 0:
             print('Train Epoch: {} [{}/{} ({:.0f}%)] | Loss: {:.6f} | Top1_Accuracy_V:{} | Top5_Accuracy_V:{} | Time:{} | Total_Time:{}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset),
                        100. * batch_idx / len(train_loader),
