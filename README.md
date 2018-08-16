@@ -63,3 +63,7 @@ TodoList
 #### 2. Finish modify resnet code
 #### Training !!!! Loss initial: 10.8
 
+### 2018.8.16
+#### 1. Resnet Loss to 6 nohup exp.log
+#### 2. Read haze paper and IEEE template
+#### 3. other dataset
