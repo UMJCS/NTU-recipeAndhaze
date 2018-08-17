@@ -19,9 +19,9 @@ import torch.utils.model_zoo as model_zoo
 
 
 #—Path settings———————————————————————————————————————————————————————————————————————————————————————————————————————
-root_path = os.getcwd()+'/'#'/home/lily/Desktop/food/' #/home/FoodRecog/ /Users/lei/PycharmProjects/FoodRecog/ /mnt/FoodRecog/
+root_path ='/new_disk2/minjie/smalldataset_result/'#'/home/lily/Desktop/food/' #/home/FoodRecog/ /Users/lei/PycharmProjects/FoodRecog/ /mnt/FoodRecog/
 image_folder='food-101/images/'#'ready_chinese_food'#scaled_images ready_chinese_food
-image_path = os.path.join(root_path,image_folder,'/')
+image_path = '/new_disk2/minjie/smalldataset_result/food-101/images/'#os.path.join(root_path,image_folder)
 
 file_path = root_path#os.path.join(root_path, 'SplitAndIngreLabel/')
 ingredient_path = ('/ingredients-101/annotations/ingredients_simplified.txt')#os.path.join(file_path, 'IngreLabel.txt')
@@ -36,6 +36,9 @@ if not os.path.exists(result_path):
 
 #—Create dataset———————————————————————————————————————————————————————————————————————————————————————————————————————
 def default_loader(path):
+    if "jpg" not in path:
+        print("error")
+        print("imagepath: "+str(path))
     img_path = root_path + image_folder + path
 
     jpgfile = Image.open(img_path).convert('RGB')
@@ -120,6 +123,7 @@ model_urls = {
     'resnet152': 'https://download.pytorch.org/models/resnet152-b121ed2d.pth',
 }
 
+
 def conv3x3(in_planes, out_planes, stride=1):
     """3x3 convolution with padding"""
     return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
@@ -133,7 +137,7 @@ class BasicBlock(nn.Module):
         super(BasicBlock, self).__init__()
         self.conv1 = conv3x3(inplanes, planes, stride)
         self.bn1 = nn.BatchNorm2d(planes)
-        self.relu = nn.ReLU()
+        self.relu = nn.ReLU(inplace=True)
         self.conv2 = conv3x3(planes, planes)
         self.bn2 = nn.BatchNorm2d(planes)
         self.downsample = downsample
@@ -157,46 +161,6 @@ class BasicBlock(nn.Module):
 
         return out
 
-
-def Deconv3x3(in_planes, out_planes, stride=1):
-    """3x3 convolution with padding"""
-    if (stride - 2) == 0:
-        return nn.ConvTranspose2d(in_planes, out_planes, kernel_size=3, stride=stride,
-                     padding=1, output_padding = 1, bias=False)
-    else:
-        return nn.ConvTranspose2d(in_planes, out_planes, kernel_size=3, stride=stride,
-                                  padding=1, bias=False)
-
-class DeBasicBlock(nn.Module):
-    expansion = 1
-
-    def __init__(self, inplanes, planes, stride=1, downsample=None):
-        super(DeBasicBlock, self).__init__()
-        self.conv1 = Deconv3x3(inplanes, planes, stride)
-        self.bn1 = nn.BatchNorm2d(planes)
-        self.relu = nn.ReLU()
-        self.conv2 = Deconv3x3(planes, planes)
-        self.bn2 = nn.BatchNorm2d(planes)
-        self.downsample = downsample
-        self.stride = stride
-
-    def forward(self, x):
-        residual = x
-
-        out = self.conv1(x)
-        out = self.bn1(out)
-        out = self.relu(out)
-
-        out = self.conv2(out)
-        out = self.bn2(out)
-
-        if self.downsample is not None:
-            residual = self.downsample(x)
-
-        out += residual
-        out = self.relu(out)
-
-        return out
 
 class Bottleneck(nn.Module):
     expansion = 4
@@ -239,42 +203,23 @@ class Bottleneck(nn.Module):
 
 class ResNet(nn.Module):
 
-    def __init__(self, block, layers, num_classes=172):
+    def __init__(self, block, layers, num_classes=101):
         self.inplanes = 64
         super(ResNet, self).__init__()
-        
-        #define resnet encoder
         self.conv1 = nn.Conv2d(3, 64, kernel_size=7, stride=2, padding=3,
                                bias=False)
         self.bn1 = nn.BatchNorm2d(64)
         self.relu = nn.ReLU(inplace=True)
-        self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1,return_indices=True)
-        self.layer1 = self._make_layer(block, 64, layers[0]) #64-64
-        self.layer2 = self._make_layer(block, 128, layers[1], stride=2)#64-128
-        self.layer3 = self._make_layer(block, 256, layers[2], stride=2)#128-256
-        self.layer4 = self._make_layer(block, 512, layers[3], stride=2)#256-512
+        self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
+        self.layer1 = self._make_layer(block, 64, layers[0])
+        self.layer2 = self._make_layer(block, 128, layers[1], stride=2)
+        self.layer3 = self._make_layer(block, 256, layers[2], stride=2)
+        self.layer4 = self._make_layer(block, 512, layers[3], stride=2)
         self.avgpooling = nn.AvgPool2d(image_size[0] // (2 ** 5), stride=1)
-        # get latent representation
-        latent_len = 200
-        self.latent = nn.Linear(512 * block.expansion, latent_len)
-
-        #classifier
-        self.classifier1 = nn.Linear(latent_len, num_classes)
-
-        # define resnet decoder
-        self.latent_re = nn.Linear(latent_len,512)
-        self.layer5 = self._make_Delayer(DeBasicBlock, 256, layers[3], stride=2)#512-256
-        self.layer6 = self._make_Delayer(DeBasicBlock, 128, layers[3], stride=2)  # 256-128
-        self.layer7 = self._make_Delayer(DeBasicBlock, 64, layers[3], stride=2)  # 128-64
-        self.layer8 = self._make_Delayer(DeBasicBlock, 64, layers[3], stride=1)  # 64-64
-        self.unmaxpool = nn.MaxUnpool2d(kernel_size=4, stride=2, padding=1)
-        self.deconv9 = nn.ConvTranspose2d(64, 3, kernel_size=6, stride=2, padding=2,
-                               bias=False)
-        self.sigmoid = nn.Sigmoid()
+        self.fc1 = nn.Linear(512 * block.expansion, num_classes)
 
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
-                #nn.init.normal_(m.weight, mode='fan_out', nonlinearity='relu')
                 nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
             elif isinstance(m, nn.BatchNorm2d):
                 nn.init.constant_(m.weight, 1)
@@ -297,67 +242,24 @@ class ResNet(nn.Module):
 
         return nn.Sequential(*layers)
 
-    def _make_Delayer(self, block, planes, blocks, stride=1):
-        downsample = None
-        if stride != 1 or self.inplanes != planes * block.expansion:
-            downsample = nn.Sequential(
-                nn.ConvTranspose2d(self.inplanes, planes * block.expansion,
-                          kernel_size=1, stride=stride, output_padding=1, bias=False),
-                nn.BatchNorm2d(planes * block.expansion),
-            )
-
-        layers = []
-        layers.append(block(self.inplanes, planes, stride, downsample))
-        self.inplanes = planes * block.expansion
-        for i in range(1, blocks):
-            layers.append(block(self.inplanes, planes))
-
-        return nn.Sequential(*layers)
-
-    def forward(self, x): #x:image y:ingredient
-        #print(x.shape)
-        x = self.conv1(x) #／2
+    def forward(self, x):
+        x = self.conv1(x)
         x = self.bn1(x)
         x = self.relu(x)
-        [x,a] = self.maxpool(x) #／2
-        #print(x.shape)
+        x = self.maxpool(x)
 
         x = self.layer1(x)
-        #print(x.shape)
-        x = self.layer2(x) #／2
-        #print(x.shape)
-        x = self.layer3(x) #／2
-        #print(x.shape)
-        x = self.layer4(x) #／2
-        #print(x.shape)
-        x = self.avgpooling(x) #(1x1)
-        #print(x.shape)
+        x = self.layer2(x)
+        x = self.layer3(x)
+        x = self.layer4(x)
 
+        x = self.avgpooling(x)
         x = x.view(x.size(0), -1)
-        x_latent= self.latent(x)
-        #print(x_latent.shape)
-        predicts = self.classifier1(x_latent)
+        x = self.fc1(x)
 
-        x = self.latent_re(x_latent)
-        x = x.view(x.shape[0], 512, 1, 1)
-        #print(x.shape)
-        x = F.upsample(x, scale_factor=image_size[0] // (2 ** 5), mode='nearest')
-        #print(x.shape)
-        x = self.layer5(x)
-        #print(x.shape)
-        x = self.layer6(x)
-        #print(x.shape)
-        x = self.layer7(x)
-        #print(x.shape)
-        x = self.layer8(x)
-        #print(x.shape)
-        x = self.unmaxpool(x,a)
-        #print(x.shape)
-        x = self.deconv9(x)
-        #print(x.shape)
-        x = self.sigmoid(x)
-        print("end model")
-        return predicts,x
+        return x
+
+
 
 
 
@@ -378,54 +280,6 @@ def resnet18(pretrained=False, **kwargs):
     return model
 
 
-def resnet34(pretrained=False, **kwargs):
-    """Constructs a ResNet-34 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
-    """
-    model = ResNet(BasicBlock, [3, 4, 6, 3], **kwargs)
-    if pretrained:
-        model.load_state_dict(model_zoo.load_url(model_urls['resnet34']))
-    return model
-
-
-def resnet50(pretrained=False, **kwargs):
-    """Constructs a ResNet-50 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
-    """
-    model = ResNet(Bottleneck, [3, 4, 6, 3], **kwargs)    
-    if pretrained:
-        pretrained_dict=model_zoo.load_url(model_urls['resnet50'])
-        model_dict = model.state_dict()
-
-        pretrained_dict = {k: v for k, v in pretrained_dict.items() if k in model_dict}
-        model_dict.update(pretrained_dict)
-        model.load_state_dict(model_dict)
-
-    return model
-
-
-def resnet101(pretrained=False, **kwargs):
-    """Constructs a ResNet-101 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
-    """
-    model = ResNet(Bottleneck, [3, 4, 23, 3], **kwargs)
-    if pretrained:
-        model.load_state_dict(model_zoo.load_url(model_urls['resnet101']))
-    return model
-
-
-def resnet152(pretrained=False, **kwargs):
-    """Constructs a ResNet-152 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
-    """
-    model = ResNet(Bottleneck, [3, 8, 36, 3], **kwargs)
-    if pretrained:
-        model.load_state_dict(model_zoo.load_url(model_urls['resnet152']))
-    return model
 
 
 
@@ -465,7 +319,8 @@ test_loader = torch.utils.data.DataLoader(
 
 
 #  —Model training & testing———————————————————————————————————————————————————————————————————————————————————————————————————————
-model = resnet18(pretrained=False)
+model = resnet18(pretrained=True)
+
 if CUDA:
     model.cuda()
     model = nn.DataParallel(model)
@@ -475,14 +330,15 @@ criterion =nn.CrossEntropyLoss()
 if CUDA:
     criterion.cuda()
 
-def loss_function(predicts_V,labels,data,x): #-> Variable:
+def loss_function(predicts_V,labels): #-> Variable:
     CE_V = criterion(predicts_V, labels)
-    RE = torch.sum((data-x)**2)*(1e-5)
+    #RE = torch.sum((data-x)**2)*(1e-5)
     #CE_T = criterion(predicts_T, labels - 1)
     #RE_latent = torch.sum((image_latent-ingredient_latent)**2)
-    print('Loss ====> CE_V: {} | RE: {} | Loss: {}'.format(CE_V, RE,CE_V+RE))
+    #print('Loss ====> CE_V: {} | RE: {} | Loss: {}'.format(CE_V, RE,CE_V+RE))
+    print('Loss ====> CE_V: {} | Loss: {}'.format(CE_V,CE_V))
     #print('Loss ====> CE_V: {} | CE_T: {} | RE_latent: {} |'.format(CE_V, CE_T,RE_latent))
-    return CE_V,RE#+CE_T#+0.01*RE_latent
+    return CE_V#+CE_T#+0.01*RE_latent
 
 def top_match(predicts, labels):
     sorted_predicts = predicts.cpu().data.numpy().argsort()
@@ -522,17 +378,17 @@ def train(epoch):
         optimizer.zero_grad()
 
         # obtain output from model
-        predicts_V,x = model(data)
+        predicts_V = model(data)
         
         # calculate scalar loss
-        CE_V, RE = loss_function(predicts_V, labels, data, x)
+        CE_V = loss_function(predicts_V, labels)
         # calculate the gradient of the loss w.r.t. the graph leaves
         # i.e. input variables -- by the power of pytorch!
         #print("CE_V: "+str(CE_V))
         #print("RE: "+str(RE))
-        loss = CE_V + RE
+        loss = CE_V 
         loss.backward()
-        print(" End backward !!!!!!!!")
+        #print(" End backward !!!!!!!!")
         train_loss += loss.data
         optimizer.step()
         #compute accuracy
@@ -595,7 +451,7 @@ def test(epoch):
             data = data.cuda()
             #ingredients = ingredients.cuda()
             
-        predicts_V,_= model(data)
+        predicts_V = model(data)
 
 
         #compute accuracy
