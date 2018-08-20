@@ -59,11 +59,21 @@ TodoList
 #### 3. Training Resnet18 (On going... 
 
 ### 2018.8.15
-#### 1.Finish Checking dataset
-#### 2. Finish modify resnet code
-#### Training !!!! Loss initial: 10.8
+#### 1.Finish Checking dataset &radic;
+#### 2. Finish modify resnet code &radic;
+#### Training !!!! Loss initial: 10.8 &radic;
 
 ### 2018.8.16
-#### 1. Resnet Loss to 6 nohup exp.log
-#### 2. Read haze paper and IEEE template
-#### 3. other dataset
+#### 1. Resnet Loss to 6 nohup exp.log &radic;
+#### 2. Read haze paper and IEEE template &radic;
+#### 3. Other dataset &radic;
+
+### 2018.8.17-2018.8.20
+#### 1. Trainning Resnet epoches &radic; failed --> due to wrong index arrangement
+#### 2. Download RESIDE-b dataset (2700 origin pics and over 70000 haze pics with depth information) &radic;
+#### 3. Generate and implement paper method to different synthesize haze image by hand &radic;
+
+### 2018.8.20 
+#### 1. Debug and retrain resnet epoches ongoing (seem reasonable so far Loss: 1.5 --> see correct.log) 
+#### 2. Augment haze dataset wiht different haze level -> (goal over 100000 pics) 
+#### 3. Find way to generate haze images without depth image from real world single out-door images
