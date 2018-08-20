@@ -70,7 +70,7 @@ TodoList
 
 ### 2018.8.17-2018.8.20
 #### 1. Trainning Resnet epoches &radic; failed --> due to wrong index arrangement
-#### 2. Download RESIDE-b dataset (2700 origin pics and over 70000 haze pics with depth information) &radic;
+#### 2. Download RESIDE-b dataset (2061 origin pics and over 70000 haze pics with depth information) &radic;
 #### 3. Generate and implement paper method to different synthesize haze image by hand &radic;
 
 ### 2018.8.20 
