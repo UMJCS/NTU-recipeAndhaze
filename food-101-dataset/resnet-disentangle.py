@@ -343,12 +343,12 @@ def loss_function(predicts_V,labels): #-> Variable:
 def top_match(predicts, labels):
     sorted_predicts = predicts.cpu().data.numpy().argsort()
     top1_labels = sorted_predicts[:,-1:][:,0]
-    match = float(sum(top1_labels == (labels-1)))
+    match = float(sum(top1_labels == (labels)))
     
     top5_labels = sorted_predicts[:, -5:]
     hit = 0
     for i in range(0,labels.size(0)):
-        hit+= (labels[i]-1) in top5_labels[i,:]
+        hit+= (labels[i]) in top5_labels[i,:]
     
     
     return match, hit
