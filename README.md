@@ -77,3 +77,8 @@ TodoList
 #### 1. Debug and retrain resnet epoches ongoing (seem reasonable so far Loss: 1.5 --> see correct.log) 
 #### 2. Augment haze dataset wiht different haze level -> (goal over 100000 pics) 
 #### 3. Find way to generate haze images without depth image from real world single out-door images
+
+
+### 2018.8.21
+#### 1. Finish training resnet on binary task -> see logs/0.0001.log && 0.0005.log lr = 0.0001 && 0.0005
+#### 2. Training resnet and Vgg on reconsturction task --> ongoing --> lr = 0.0001 save weights per epoch
