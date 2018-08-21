@@ -304,11 +304,11 @@ no_of_channels = 3
 image_size = [256, 256]  # [64,64]
 
 # changed configuration to this instead of argparse for easier interaction
-CUDA = 0  # True
+CUDA = 1  # True
 SEED = 1
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 LOG_INTERVAL = 10
-EPOCHS = 16
+EPOCHS = 8
 learning_rate = 1e-4
 
 torch.manual_seed(SEED)
@@ -316,7 +316,7 @@ if CUDA:
     torch.cuda.manual_seed(SEED)
 
 # DataLoader instances will load tensors directly into GPU memory
-kwargs = {'num_workers': 4, 'pin_memory': True} if CUDA else {}
+kwargs = {'num_workers': 2, 'pin_memory': True} if CUDA else {}
 
 # Download or load downloaded MNIST dataset
 # shuffle data at every epoch
@@ -346,7 +346,7 @@ if CUDA:
 
 def loss_function(predicts_V, labels) -> Variable:
     CE_V = criterion(predicts_V, labels)
-    print("Loss: " + str(CE_V))
+    #print("Loss: " + str(CE_V))
     return CE_V
 
 
@@ -376,7 +376,7 @@ def train(epoch):
     for batch_idx, (data, labels) in enumerate(train_loader):
         #  if batch_idx == 1:
         #      break
-        print("Round start")
+        #print("Round start")
         start_time = time.time()
         data = Variable(data)
         #ingredients = Variable(ingredients)
@@ -482,7 +482,8 @@ def test(epoch):
         '====> Test set: Average Top1_Accuracy_V:{} | Average Top5_Accuracy_V:{} | Total Time:{}'.format(
             top1_accuracy_total_V / len(test_loader.dataset), top5_accuracy_total_V / len(test_loader.dataset),
             round((time.time() - total_time), 4)))
-
+    model_save_name = 'Vgg_' + str(learning_rate) + '_'+ str(epoch) + '.pkl' 
+    torch.save(model.state_dict(),model_save_name)
     # save testing performance per epoch
     with io.open(result_path + 'test_accuracy.txt', 'a', encoding='utf-8') as file:
         file.write('%f ' % (top1_accuracy_total_V / len(test_loader.dataset)))
