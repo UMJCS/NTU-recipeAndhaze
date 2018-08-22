@@ -88,7 +88,7 @@ TodoList
   ##### Test set: Average Top1_Accuracy_V:0.7784950495049505 | Average Top5_Accuracy_V:0.9411881188118811 -> weights && logs see /exps/exp0
 #### Experience 2: vgg lr = 1e-4 nonvalid epoch 8 ->
   ##### Test set: Average Top1_Accuracy_V:0.7787722772277228 | Average Top5_Accuracy_V:0.9397227722772277 -> weights && logs see /exps/exp1
-#### Experience 3: resnet lr = 5e-4 nonvalid epoch 7 -> on running
-#### Experience 4: resnet lr = 3e-4 nonvalid epoch 7 -> on running
-#### Experience 5: resnet lr = 1e-4 valid epoch 7 -> on running
-#### Experience 6: resnet lr = 2e-4 nonvalid epoch 12 -> on running
+#### Experience 3: resnet lr = 5e-4 nonvalid epoch 7 -> on running epoch1 = 0.5359 epoch2 = 0.5986 *epoch 3 = 0.7413
+#### Experience 4: resnet lr = 3e-4 nonvalid epoch 7 -> on running epoch1 = 0.6179 epoch2 = 0.6782 epoch3 = 0.76396  up but 3-6 no change(up and down)
+#### Experience 5: resnet lr = 1e-4 valid epoch 7 -> on running epoch1 = 0.675 epoch2 = 0.7245 epoch3 =
+#### Experience 6: resnet lr = 2e-4 valid epoch 12 -> on running epoch1 = 0.6328 epoch2 = 0.6921 epoch3 = 0.7735 epoch4 = 0.7761
