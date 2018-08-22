@@ -82,3 +82,13 @@ TodoList
 ### 2018.8.21
 #### 1. Finish training resnet on binary task -> see logs/0.0001.log && 0.0005.log lr = 0.0001 && 0.0005
 #### 2. Training resnet and Vgg on reconsturction task --> ongoing --> lr = 0.0001 save weights per epoch
+
+### 2018.8.22
+#### Experience 1: resnet lr = 1e-4 nonvalid epoch 7 ->
+  ##### Test set: Average Top1_Accuracy_V:0.7784950495049505 | Average Top5_Accuracy_V:0.9411881188118811 -> weights && logs see /exps/exp0
+#### Experience 2: vgg lr = 1e-4 nonvalid epoch 8 ->
+  ##### Test set: Average Top1_Accuracy_V:0.7787722772277228 | Average Top5_Accuracy_V:0.9397227722772277 -> weights && logs see /exps/exp1
+#### Experience 3: resnet lr = 5e-4 nonvalid epoch 7 -> on running
+#### Experience 4: resnet lr = 3e-4 nonvalid epoch 7 -> on running
+#### Experience 5: resnet lr = 1e-4 valid epoch 7 -> on running
+#### Experience 6: resnet lr = 2e-4 nonvalid epoch 12 -> on running
