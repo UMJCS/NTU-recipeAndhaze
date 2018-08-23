@@ -67,6 +67,17 @@ class FoodData(torch.utils.data.Dataset):
             # path_to_images = path_to_images + path_to_images1
             # labels = np.concatenate([labels, labels1], 1)[0, :]
             #ingredients = np.concatenate([ingredients, ingredients1], 0)
+
+            with io.open(validation_data_path, encoding='utf-8') as file:
+                path_to_images1 = file.read().split('\n')
+            file4 = io.open('val_label.txt',encoding='utf-8')
+            labels1 = [int(i[:-1]) for i in file4.readlines()]
+            #labels1 = matio.loadmat(file_path + 'validation_label.mat')['validation_label']
+            #ingredients1 = matio.loadmat(file_path + 'ingredient_validation_feature.mat')['ingredient_validation_feature'][0:11016,:]
+            #
+            path_to_images = path_to_images+path_to_images1
+            labels.extend(labels1)
+
         elif test_data:
             with io.open(test_data_path, encoding='utf-8') as file:
                 path_to_images = file.read().split('\n')
@@ -74,6 +85,11 @@ class FoodData(torch.utils.data.Dataset):
             labels = [int(i[:-1]) for i in file2.readlines()]
             # ingredients = matio.loadmat(file_path + 'ingredient_test_feature.mat')['ingredient_test_feature'][0:33154,
             #               :]
+        else:
+            with io.open(validation_data_path, encoding='utf-8') as file:
+                path_to_images = file.read().split('\n')
+            file3 = io.open('val_label.txt',encoding='utf-8')
+            labels = [int(i[:-1]) for i in file3.readlines()]
         # else:
         #     with io.open(validation_data_path, encoding='utf-8') as file:
         #         path_to_images = file.read().split('\n')
@@ -306,9 +322,9 @@ image_size = [256, 256]  # [64,64]
 # changed configuration to this instead of argparse for easier interaction
 CUDA = 1  # True
 SEED = 1
-BATCH_SIZE = 16
+BATCH_SIZE = 32
 LOG_INTERVAL = 10
-EPOCHS = 8
+EPOCHS = 6
 learning_rate = 1e-4
 
 torch.manual_seed(SEED)
@@ -316,7 +332,7 @@ if CUDA:
     torch.cuda.manual_seed(SEED)
 
 # DataLoader instances will load tensors directly into GPU memory
-kwargs = {'num_workers': 2, 'pin_memory': True} if CUDA else {}
+kwargs = {'num_workers': 1, 'pin_memory': True} if CUDA else {}
 
 # Download or load downloaded MNIST dataset
 # shuffle data at every epoch
@@ -482,8 +498,11 @@ def test(epoch):
         '====> Test set: Average Top1_Accuracy_V:{} | Average Top5_Accuracy_V:{} | Total Time:{}'.format(
             top1_accuracy_total_V / len(test_loader.dataset), top5_accuracy_total_V / len(test_loader.dataset),
             round((time.time() - total_time), 4)))
-    model_save_name = 'Vgg_' + str(learning_rate) + '_'+ str(epoch) + '.pkl' 
-    torch.save(model.state_dict(),model_save_name)
+    if epoch!=0 and epoch%5 ==0:
+        model_save_name = 'exp7_vgg_'+ str(learning_rate) + '_'+ str(epoch) + '.pkl'
+        torch.save(model, model_save_name)
+        #torch.save(model.state_dict(),model_save_name)
+        print("model saved!")
     # save testing performance per epoch
     with io.open(result_path + 'test_accuracy.txt', 'a', encoding='utf-8') as file:
         file.write('%f ' % (top1_accuracy_total_V / len(test_loader.dataset)))
