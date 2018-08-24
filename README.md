@@ -92,3 +92,6 @@ TodoList
 #### Experience 4: resnet lr = 3e-4 nonvalid epoch 7 -> on running epoch1 = 0.6179 epoch2 = 0.6782 epoch3 = 0.76396  up but 3-6 no change(up and down)
 #### Experience 5: resnet lr = 1e-4 valid epoch 7 -> on running epoch1 = 0.675 epoch2 = 0.7245 epoch3 =
 #### Experience 6: resnet lr = 2e-4 valid epoch 12 -> on running epoch1 = 0.6328 epoch2 = 0.6921 epoch3 = 0.7735 epoch4 = 0.7761
+
+#### Best now experience 9 : resnet lr = 1e-4 valid epoch 10 with predict_V * 8 -> epoch1 = 0.7075 epoch2 = 0.7363 epoch3 = 0.7883 epoch4 = 0.790059 epoch5 = 0.7885 epoch6 = 0.78942 -> epoch 10 change lr too high?
+
