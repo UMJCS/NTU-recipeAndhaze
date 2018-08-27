@@ -95,3 +95,11 @@ TodoList
 
 #### Best now experience 9 : resnet lr = 1e-4 valid epoch 10 with predict_V * 8 -> epoch1 = 0.7075 epoch2 = 0.7363 epoch3 = 0.7883 epoch4 = 0.790059 epoch5 = 0.7885 epoch6 = 0.78942 -> epoch 10 change lr too high?
 
+### 2018.8.22 - 2018.8.26
+#### Haze dataset http://vcc.szu.edu.cn/research/2017/RSCM & https://drive.google.com/file/d/0B9H84JPfo-KtV1R5SF94ZV94Ymc/view
+#### Generate 10 levels of synthesize haze photos also labels.txt imgpath.txt
+#### Generate origin and 256 resize dataset --> publish??
+
+### 2018.8.27
+#### Add ingredient info to resnet and run with exp13 10 epoches and lr = 1e-4
+#### Add ingredient info to vgg
