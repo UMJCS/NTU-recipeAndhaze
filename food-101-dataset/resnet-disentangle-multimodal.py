@@ -17,29 +17,33 @@ from torchvision.utils import save_image
 import torch.utils.model_zoo as model_zoo
 
 # —Path settings———————————————————————————————————————————————————————————————————————————————————————————————————————
-root_path = '/mnt/FoodRecog/'  # /home/lily/Desktop/food/ /Users/lei/PycharmProjects/FoodRecog/ /mnt/FoodRecog/
-image_folder = 'ready_chinese_food'  # scaled_images ready_chinese_food
-image_path = os.path.join(root_path, image_folder, '/')
+root_path = os.getcwd()+'/'#'/home/lily/Desktop/food/' #/home/FoodRecog/ /Users/lei/PycharmProjects/FoodRecog/ /mnt/FoodRecog/
+image_folder='food-101/images/'#'ready_chinese_food'#scaled_images ready_chinese_food
+image_path = os.path.join(root_path,image_folder,'/')
 
-file_path = os.path.join(root_path, 'SplitAndIngreLabel/')
-ingredient_path = os.path.join(file_path, 'IngreLabel.txt')
+file_path = root_path#os.path.join(root_path, 'SplitAndIngreLabel/')
+ingredient_path = os.path.join(file_path, 'foodtype_vectors.txt')#os.path.join(file_path, 'IngreLabel.txt')
 
-train_data_path = os.path.join(file_path, 'TR.txt')
-validation_data_path = os.path.join(file_path, 'VAL.txt')
-test_data_path = os.path.join(file_path, 'TE.txt')
+train_data_path = os.path.join(file_path, 'train.txt')
+validation_data_path = os.path.join(file_path, 'val.txt')
+test_data_path = os.path.join(file_path, 'test.txt')
 
 result_path = root_path + 'results/'
 if not os.path.exists(result_path):
     os.makedirs(result_path)
 
-test_path = root_path + 'test/'
-if not os.path.exists(test_path):
-    os.makedirs(test_path)
+INGREDIENTS = []
+INGREfile = open('foodtype_vectors.txt')
+INGREdata = INGREfile.readlines()
 
-train_path = root_path + 'train/'
-if not os.path.exists(train_path):
-    os.makedirs(train_path)
-
+for i in range(0,len(INGREdata),7):
+    lines = INGREdata[i:i+7]
+    outline = []
+    for line in lines:
+        for ele in line:
+            if ele.isdigit():
+                outline.append(int(ele))
+    INGREDIENTS.append(outline)
 
 # —Create dataset———————————————————————————————————————————————————————————————————————————————————————————————————————
 def default_loader(path):
@@ -58,36 +62,43 @@ class FoodData(torch.utils.data.Dataset):
         if train_data:
             with io.open(train_data_path, encoding='utf-8') as file:
                 path_to_images = file.read().split('\n')
-            labels = matio.loadmat(file_path + 'train_label.mat')['train_label']
-            ingredients = matio.loadmat(file_path + 'ingredient_train_feature.mat')['ingredient_train_feature'][0:66071,
-                          :]
+            # # train_load = 'train_label.mat'
+            # labels = matio.loadmat(train_load)
+            file1 = io.open('train_label.txt', encoding='utf-8')
+            labels = [int(i[:-1]) for i in file1.readlines()]
+
+            # matio.savemat(path,['train_label',label])
+            # ingredients = matio.loadmat(file_path + 'ingredient_train_feature.mat')['ingredient_train_feature'][0:66071,:]
 
             with io.open(validation_data_path, encoding='utf-8') as file:
                 path_to_images1 = file.read().split('\n')
-            labels1 = matio.loadmat(file_path + 'validation_label.mat')['validation_label']
-            ingredients1 = matio.loadmat(file_path + 'ingredient_validation_feature.mat')[
-                               'ingredient_validation_feature'][0:11016, :]
-
+            file4 = io.open('val_label.txt', encoding='utf-8')
+            labels1 = [int(i[:-1]) for i in file4.readlines()]
+            # labels1 = matio.loadmat(file_path + 'validation_label.mat')['validation_label']
+            # ingredients1 = matio.loadmat(file_path + 'ingredient_validation_feature.mat')['ingredient_validation_feature'][0:11016,:]
+            #
             path_to_images = path_to_images + path_to_images1
-            labels = np.concatenate([labels, labels1], 1)[0, :]
-            ingredients = np.concatenate([ingredients, ingredients1], 0)
+            labels.extend(labels1)
+            # labels = np.concatenate([labels,labels1],1)[0,:]
+            # #ingredients = np.concatenate([ingredients, ingredients1], 0)
         elif test_data:
             with io.open(test_data_path, encoding='utf-8') as file:
                 path_to_images = file.read().split('\n')
-            labels = matio.loadmat(file_path + 'test_label.mat')['test_label'][0, :]
-            ingredients = matio.loadmat(file_path + 'ingredient_test_feature.mat')['ingredient_test_feature'][0:33154,
-                          :]
+
+            file2 = io.open('test_label.txt', encoding='utf-8')
+            labels = [int(i[:-1]) for i in file2.readlines()]
+
+            # ingredients = matio.loadmat(file_path + 'ingredient_test_feature.mat')['ingredient_test_feature'][0:33154,:]
         else:
             with io.open(validation_data_path, encoding='utf-8') as file:
                 path_to_images = file.read().split('\n')
-            labels = matio.loadmat(file_path + 'validation_label.mat')['validation_label'][0, :]
-            ingredients = matio.loadmat(file_path + 'ingredient_validation_feature.mat')[
-                'ingredient_validation_feature']
+            file3 = io.open('val_label.txt', encoding='utf-8')
+            labels = [int(i[:-1]) for i in file3.readlines()]
 
-        ingredients = ingredients.astype(np.float32)
+        #ingredients = ingredients.astype(np.float32)
         self.path_to_images = path_to_images
         self.labels = labels
-        self.ingredients = ingredients
+        #self.ingredients = ingredients
         self.transform = transform
         self.loader = loader
 
@@ -100,8 +111,10 @@ class FoodData(torch.utils.data.Dataset):
         # get label
         label = self.labels[index]
         # get ingredients 353-D vector
-        ingredient = self.ingredients[index, :]
-        return img, label, ingredient
+        #ingredient = self.ingredients[index, :]
+        return img, label#, ingredient
+
+
 
     def __len__(self):
         return len(self.path_to_images)
@@ -288,7 +301,7 @@ class DeBottleneck(nn.Module):
 
 
 class ResNet(nn.Module):
-    def __init__(self, block, layers, num_classes=172):
+    def __init__(self, block, layers, num_classes=101):
         self.inplanes = 64
         super(ResNet, self).__init__()
 
@@ -325,7 +338,7 @@ class ResNet(nn.Module):
         self.sigmoid = nn.Sigmoid()
 
         # define ingredient encoder for 353 input features
-        num_ingre_feature = 353
+        num_ingre_feature = 227
         self.nn1 = nn.Linear(num_ingre_feature, num_ingre_feature)
         self.nn2 = nn.Linear(num_ingre_feature, latent_len)
         # classifier_T
@@ -517,7 +530,7 @@ SEED = 1
 BATCH_SIZE = 50
 LOG_INTERVAL = 10
 EPOCHS = 18
-learning_rate = 1e-3
+learning_rate = 1e-4
 blk_len = 300
 
 torch.manual_seed(SEED)
@@ -546,8 +559,10 @@ model = resnet50(pretrained=True)
 if CUDA:
     model = nn.DataParallel(model)
     model = model.cuda()
-
-optimizer = optim.Adam(model.module.parameters(), lr=learning_rate)  # .module.parameters(), lr=learning_rate)
+if CUDA==0:
+    optimizer = optim.Adam(model.parameters(), lr=learning_rate)  # .module.parameters(), lr=learning_rate)
+else:
+    optimizer = optim.Adam(model.module.parameters(), lr=learning_rate)
 
 criterion = nn.CrossEntropyLoss()
 if CUDA:
@@ -556,8 +571,8 @@ if CUDA:
 
 def loss_function(predicts_V, predicts_T, labels, data, ingredients, x, y, x_latent, y_latent):
     # normalization = nn.Softmax()
-    CE_V = criterion(predicts_V, labels - 1) * 15
-    CE_T = criterion(predicts_T, labels - 1)
+    CE_V = criterion(predicts_V, labels ) * 15
+    CE_T = criterion(predicts_T, labels )
     RE_V = torch.sum((data - x) ** 2) * (1e-5)
     RE_T = torch.sum((ingredients - y) ** 2) * (1e-2)
     AE = torch.sum((x_latent[:, 0:blk_len] - y_latent[:, 0:blk_len]) ** 2) * (
@@ -573,12 +588,12 @@ def loss_function(predicts_V, predicts_T, labels, data, ingredients, x, y, x_lat
 def top_match(predicts, labels):
     sorted_predicts = predicts.cpu().data.numpy().argsort()
     top1_labels = sorted_predicts[:, -1:][:, 0]
-    match = float(sum(top1_labels == (labels - 1)))
+    match = float(sum(top1_labels == (labels)))
 
     top5_labels = sorted_predicts[:, -5:]
     hit = 0
     for i in range(0, labels.size(0)):
-        hit += (labels[i] - 1) in top5_labels[i, :]
+        hit += (labels[i]) in top5_labels[i, :]
 
     return match, hit
 
@@ -594,13 +609,21 @@ def train(epoch):
     top5_accuracy_total_T = 0
     total_time = time.time()
 
-    for batch_idx, (data, labels, ingredients) in enumerate(
+    for batch_idx, (data, labels) in enumerate(
             train_loader):  # ---------------------------------------------------------------------------------------------------------------------------------
         # for effective code debugging
         # if batch_idx == 1:
         # break
         # print('batch %',batch_idx)         #---------------------------------------------------------------------------------------------------------------------------------
         # for effective code debugging
+        #qqqqq = labels[0]
+        ingredients = []
+        for element in labels:
+            #kkk = INGREDIENTS[int(element)]
+            ingredients.append(INGREDIENTS[int(element)])
+        ingredients = np.array(ingredients,dtype='uint8')
+        ingredients = torch.from_numpy(ingredients).float()
+        #kkkkk = type(ingredients)
         start_time = time.time()
         data = Variable(data)
         ingredients = Variable(ingredients)
@@ -669,7 +692,9 @@ def train(epoch):
             epoch, train_loss / len(train_loader), top1_accuracy_total_V / len(train_loader.dataset),
                    top5_accuracy_total_V / len(train_loader.dataset), top1_accuracy_total_T / len(train_loader.dataset),
                    top5_accuracy_total_T / len(train_loader.dataset), round((time.time() - total_time), 4)))
-
+    if epoch!=0 and epoch%2==0:
+        torch.save(model, 'exp13_ingredient_'+ str(learning_rate)+'_' + str(epoch) +'.pth')
+        print("model saved")
     with io.open(result_path + 'train_loss.txt', 'a', encoding='utf-8') as file:
         # print('write in-epoch loss at epoch {} | batch {}'.format(epoch,batch_idx))
         file.write('%f\n' % (train_loss / len(train_loader)))
