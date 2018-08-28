@@ -106,3 +106,4 @@ TodoList
 
 ### 2018.8.28
 #### exp13-add ingredient  -> epoch 8 = 0.818178 epoch9* = 0.81932
+#### exp16-retrain-with-exp13-epoch8 --->  epoch 5* = Top1_Accuracy_V:0.8203564356435643
