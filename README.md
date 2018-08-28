@@ -103,3 +103,6 @@ TodoList
 ### 2018.8.27
 #### Add ingredient info to resnet and run with exp13 10 epoches and lr = 1e-4
 #### Add ingredient info to vgg
+
+### 2018.8.28
+#### exp13-add ingredient  -> epoch 8 = 0.818178 epoch9* = 0.81932
