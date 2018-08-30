@@ -1,0 +1,775 @@
+1e-08
+Training starts..
+Train Epoch: 1 [1600/100000 (2%)] | Loss: 1.118294 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2595 | Total_Time:49.5359
+Train Epoch: 1 [3200/100000 (3%)] | Loss: 1.009516 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.42 | Total_Time:97.7888
+Train Epoch: 1 [4800/100000 (5%)] | Loss: 0.794364 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.345 | Total_Time:146.2393
+Train Epoch: 1 [6400/100000 (6%)] | Loss: 2.015490 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.3377 | Total_Time:194.7741
+Train Epoch: 1 [8000/100000 (8%)] | Loss: 0.755547 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5977 | Total_Time:243.2704
+Train Epoch: 1 [9600/100000 (10%)] | Loss: 0.708875 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.7852 | Total_Time:291.8109
+Train Epoch: 1 [11200/100000 (11%)] | Loss: 0.836001 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.5182 | Total_Time:340.3384
+Train Epoch: 1 [12800/100000 (13%)] | Loss: 0.517237 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6307 | Total_Time:388.8866
+Train Epoch: 1 [14400/100000 (14%)] | Loss: 0.493073 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5362 | Total_Time:437.4148
+Train Epoch: 1 [16000/100000 (16%)] | Loss: 0.640054 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4074 | Total_Time:485.9566
+Train Epoch: 1 [17600/100000 (18%)] | Loss: 1.210285 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4235 | Total_Time:534.4981
+Train Epoch: 1 [19200/100000 (19%)] | Loss: 0.484700 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3038 | Total_Time:583.0145
+Train Epoch: 1 [20800/100000 (21%)] | Loss: 1.046594 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.5502 | Total_Time:631.5291
+Train Epoch: 1 [22400/100000 (22%)] | Loss: 0.700527 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.8956 | Total_Time:680.0405
+Train Epoch: 1 [24000/100000 (24%)] | Loss: 0.612716 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4075 | Total_Time:728.5124
+Train Epoch: 1 [25600/100000 (26%)] | Loss: 0.757885 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5762 | Total_Time:776.9818
+Train Epoch: 1 [27200/100000 (27%)] | Loss: 0.824965 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4165 | Total_Time:825.4571
+Train Epoch: 1 [28800/100000 (29%)] | Loss: 0.671480 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4319 | Total_Time:873.9439
+Train Epoch: 1 [30400/100000 (30%)] | Loss: 1.100334 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.3234 | Total_Time:922.4133
+Train Epoch: 1 [32000/100000 (32%)] | Loss: 0.900485 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.8424 | Total_Time:970.9179
+Train Epoch: 1 [33600/100000 (34%)] | Loss: 0.706842 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4462 | Total_Time:1019.4011
+Train Epoch: 1 [35200/100000 (35%)] | Loss: 0.974892 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2784 | Total_Time:1067.8813
+Train Epoch: 1 [36800/100000 (37%)] | Loss: 0.628931 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4304 | Total_Time:1116.3858
+Train Epoch: 1 [38400/100000 (38%)] | Loss: 0.579728 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4289 | Total_Time:1164.9158
+Train Epoch: 1 [40000/100000 (40%)] | Loss: 0.601090 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.8469 | Total_Time:1213.4664
+Train Epoch: 1 [41600/100000 (42%)] | Loss: 0.729657 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3793 | Total_Time:1262.013
+Train Epoch: 1 [43200/100000 (43%)] | Loss: 0.750857 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5937 | Total_Time:1310.5458
+Train Epoch: 1 [44800/100000 (45%)] | Loss: 0.410459 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3119 | Total_Time:1359.1266
+Train Epoch: 1 [46400/100000 (46%)] | Loss: 0.482830 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5539 | Total_Time:1407.6667
+Train Epoch: 1 [48000/100000 (48%)] | Loss: 1.651347 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.4538 | Total_Time:1456.2216
+Train Epoch: 1 [49600/100000 (50%)] | Loss: 0.672196 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5443 | Total_Time:1504.7843
+Train Epoch: 1 [51200/100000 (51%)] | Loss: 0.729901 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4091 | Total_Time:1553.3291
+Train Epoch: 1 [52800/100000 (53%)] | Loss: 0.665672 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4103 | Total_Time:1601.9073
+Train Epoch: 1 [54400/100000 (54%)] | Loss: 0.417094 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3456 | Total_Time:1650.4401
+Train Epoch: 1 [56000/100000 (56%)] | Loss: 0.612959 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.491 | Total_Time:1699.009
+Train Epoch: 1 [57600/100000 (58%)] | Loss: 0.944589 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.348 | Total_Time:1747.5418
+Train Epoch: 1 [59200/100000 (59%)] | Loss: 0.502557 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4474 | Total_Time:1796.0745
+Train Epoch: 1 [60800/100000 (61%)] | Loss: 0.503768 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3697 | Total_Time:1844.6165
+Train Epoch: 1 [62400/100000 (62%)] | Loss: 1.083208 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.6267 | Total_Time:1893.1515
+Train Epoch: 1 [64000/100000 (64%)] | Loss: 0.918053 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.6342 | Total_Time:1941.6921
+Train Epoch: 1 [65600/100000 (66%)] | Loss: 0.619419 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.777 | Total_Time:1990.2248
+Train Epoch: 1 [67200/100000 (67%)] | Loss: 0.597299 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.9013 | Total_Time:2038.8224
+Train Epoch: 1 [68800/100000 (69%)] | Loss: 0.596135 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6643 | Total_Time:2087.3412
+Train Epoch: 1 [70400/100000 (70%)] | Loss: 0.576174 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4948 | Total_Time:2135.8808
+Train Epoch: 1 [72000/100000 (72%)] | Loss: 2.454472 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.4883 | Total_Time:2184.4548
+Train Epoch: 1 [73600/100000 (74%)] | Loss: 0.400491 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5479 | Total_Time:2232.9783
+Train Epoch: 1 [75200/100000 (75%)] | Loss: 0.840445 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.635 | Total_Time:2281.5274
+Train Epoch: 1 [76800/100000 (77%)] | Loss: 1.723837 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.4781 | Total_Time:2330.0627
+Train Epoch: 1 [78400/100000 (78%)] | Loss: 1.542134 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.6658 | Total_Time:2378.5879
+Train Epoch: 1 [80000/100000 (80%)] | Loss: 0.633140 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3628 | Total_Time:2427.1471
+Train Epoch: 1 [81600/100000 (82%)] | Loss: 0.486851 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.784 | Total_Time:2475.6794
+Train Epoch: 1 [83200/100000 (83%)] | Loss: 1.066551 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4638 | Total_Time:2524.1879
+Train Epoch: 1 [84800/100000 (85%)] | Loss: 0.936252 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.469 | Total_Time:2572.7173
+Train Epoch: 1 [86400/100000 (86%)] | Loss: 0.704826 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3834 | Total_Time:2621.2056
+Train Epoch: 1 [88000/100000 (88%)] | Loss: 1.105242 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5262 | Total_Time:2669.7414
+Train Epoch: 1 [89600/100000 (90%)] | Loss: 0.758475 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3341 | Total_Time:2718.2715
+Train Epoch: 1 [91200/100000 (91%)] | Loss: 0.874361 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4404 | Total_Time:2766.8125
+Train Epoch: 1 [92800/100000 (93%)] | Loss: 0.624021 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2586 | Total_Time:2815.3509
+Train Epoch: 1 [94400/100000 (94%)] | Loss: 0.781318 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.7174 | Total_Time:2863.8938
+Train Epoch: 1 [96000/100000 (96%)] | Loss: 0.600837 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.397 | Total_Time:2912.4293
+Train Epoch: 1 [97600/100000 (98%)] | Loss: 0.898815 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4473 | Total_Time:2960.9606
+Train Epoch: 1 [99200/100000 (99%)] | Loss: 0.811307 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4528 | Total_Time:3009.4675
+====> Epoch: 1 | Average loss: 0.8292 | Average Top1_Accuracy_V:0.99046 | Average Top5_Accuracy_V:1.0 | Time:3032.7733
+testing starts..
+Testing batch: 0 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3879 | Total_Time:6.4188
+Testing batch: 1 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3229 | Total_Time:6.7606
+Testing batch: 2 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3097 | Total_Time:7.1689
+Testing batch: 3 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3025 | Total_Time:7.4909
+Testing batch: 4 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3036 | Total_Time:7.8312
+Testing batch: 5 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3051 | Total_Time:8.1733
+Testing batch: 6 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2931 | Total_Time:10.9098
+Testing batch: 7 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2965 | Total_Time:11.2571
+Testing batch: 8 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3047 | Total_Time:11.5828
+Testing batch: 9 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3074 | Total_Time:11.9019
+Testing batch: 10 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3067 | Total_Time:12.2175
+Testing batch: 11 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2999 | Total_Time:12.5422
+Testing batch: 12 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.302 | Total_Time:14.3051
+Testing batch: 13 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2987 | Total_Time:14.6128
+Testing batch: 14 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3026 | Total_Time:14.9202
+Testing batch: 15 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3032 | Total_Time:15.2354
+Testing batch: 16 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2938 | Total_Time:15.565
+Testing batch: 17 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2926 | Total_Time:15.8843
+Testing batch: 18 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2941 | Total_Time:17.5471
+Testing batch: 19 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:17.8542
+Testing batch: 20 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3057 | Total_Time:18.168
+Testing batch: 21 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3058 | Total_Time:18.4743
+Testing batch: 22 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2876 | Total_Time:18.8153
+Testing batch: 23 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2898 | Total_Time:19.1376
+Testing batch: 24 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2924 | Total_Time:20.7066
+Testing batch: 25 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.295 | Total_Time:21.003
+Testing batch: 26 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2971 | Total_Time:21.3219
+Testing batch: 27 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2964 | Total_Time:21.6377
+Testing batch: 28 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:21.9634
+Testing batch: 29 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2918 | Total_Time:22.2891
+Testing batch: 30 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.289 | Total_Time:23.2831
+Testing batch: 31 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2912 | Total_Time:23.6193
+Testing batch: 32 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2937 | Total_Time:23.9246
+Testing batch: 33 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2979 | Total_Time:24.2272
+Testing batch: 34 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2963 | Total_Time:24.5915
+Testing batch: 35 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2924 | Total_Time:24.9263
+Testing batch: 36 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2814 | Total_Time:26.0048
+Testing batch: 37 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2948 | Total_Time:26.3243
+Testing batch: 38 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2964 | Total_Time:26.6293
+Testing batch: 39 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2932 | Total_Time:26.9504
+Testing batch: 40 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2931 | Total_Time:27.2517
+Testing batch: 41 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3039 | Total_Time:27.5623
+Testing batch: 42 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2969 | Total_Time:28.7478
+Testing batch: 43 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.289 | Total_Time:29.0727
+Testing batch: 44 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:29.3751
+Testing batch: 45 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2955 | Total_Time:29.7061
+Testing batch: 46 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2957 | Total_Time:30.0105
+Testing batch: 47 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.304 | Total_Time:30.3155
+Testing batch: 48 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:31.3829
+Testing batch: 49 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2976 | Total_Time:31.688
+Testing batch: 50 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2986 | Total_Time:32.0186
+Testing batch: 51 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:32.3199
+Testing batch: 52 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:32.63
+Testing batch: 53 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:32.9641
+Testing batch: 54 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2916 | Total_Time:34.1515
+Testing batch: 55 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2918 | Total_Time:34.4787
+Testing batch: 56 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2936 | Total_Time:34.7934
+Testing batch: 57 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2943 | Total_Time:35.1023
+Testing batch: 58 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2955 | Total_Time:35.4087
+Testing batch: 59 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2935 | Total_Time:35.7435
+Testing batch: 60 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2889 | Total_Time:36.8689
+Testing batch: 61 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2927 | Total_Time:37.2039
+Testing batch: 62 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2996 | Total_Time:37.516
+Testing batch: 63 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2948 | Total_Time:37.8278
+Testing batch: 64 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2991 | Total_Time:38.1362
+Testing batch: 65 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2999 | Total_Time:38.45
+Testing batch: 66 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:39.8542
+Testing batch: 67 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3042 | Total_Time:40.1595
+Testing batch: 68 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3026 | Total_Time:40.4688
+Testing batch: 69 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2927 | Total_Time:40.7875
+Testing batch: 70 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2877 | Total_Time:41.1136
+Testing batch: 71 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2951 | Total_Time:41.4304
+Testing batch: 72 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2971 | Total_Time:42.725
+Testing batch: 73 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2909 | Total_Time:43.0347
+Testing batch: 74 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2979 | Total_Time:43.3521
+Testing batch: 75 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2962 | Total_Time:43.6727
+Testing batch: 76 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2895 | Total_Time:44.0015
+Testing batch: 77 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2902 | Total_Time:44.3132
+Testing batch: 78 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2926 | Total_Time:45.6809
+Testing batch: 79 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2905 | Total_Time:45.9978
+Testing batch: 80 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3031 | Total_Time:46.3038
+Testing batch: 81 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2951 | Total_Time:46.6177
+Testing batch: 82 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2898 | Total_Time:46.9613
+Testing batch: 83 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2863 | Total_Time:47.302
+Testing batch: 84 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2901 | Total_Time:48.4581
+Testing batch: 85 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2932 | Total_Time:48.7606
+Testing batch: 86 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.303 | Total_Time:49.0671
+Testing batch: 87 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.297 | Total_Time:49.3729
+Testing batch: 88 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2957 | Total_Time:49.6871
+Testing batch: 89 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2914 | Total_Time:50.0074
+Testing batch: 90 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.291 | Total_Time:51.2643
+Testing batch: 91 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2961 | Total_Time:51.5633
+Testing batch: 92 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2938 | Total_Time:51.88
+Testing batch: 93 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.298 | Total_Time:52.1893
+Testing batch: 94 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2973 | Total_Time:52.5052
+Testing batch: 95 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:52.8101
+Testing batch: 96 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:54.1437
+Testing batch: 97 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2894 | Total_Time:54.449
+Testing batch: 98 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2966 | Total_Time:54.8129
+Testing batch: 99 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.297 | Total_Time:55.1314
+Testing batch: 100 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2956 | Total_Time:55.4379
+Testing batch: 101 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2986 | Total_Time:55.7368
+Testing batch: 102 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2972 | Total_Time:56.8983
+Testing batch: 103 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2969 | Total_Time:57.1967
+Testing batch: 104 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:57.5302
+Testing batch: 105 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2956 | Total_Time:57.8411
+Testing batch: 106 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2954 | Total_Time:58.154
+Testing batch: 107 | Top1_Accuracy_V:0.90625 | Top5_Accuracy_V:1.0 | Time:0.2931 | Total_Time:58.4686
+Testing batch: 108 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2936 | Total_Time:59.5584
+Testing batch: 109 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2903 | Total_Time:59.8634
+Testing batch: 110 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2979 | Total_Time:60.1717
+Testing batch: 111 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2936 | Total_Time:60.4707
+Testing batch: 112 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2828 | Total_Time:60.8258
+Testing batch: 113 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3029 | Total_Time:61.1371
+Testing batch: 114 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:62.2375
+Testing batch: 115 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2953 | Total_Time:62.5389
+Testing batch: 116 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:62.8432
+Testing batch: 117 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:63.1515
+Testing batch: 118 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2966 | Total_Time:63.4613
+Testing batch: 119 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2887 | Total_Time:63.7834
+Testing batch: 120 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2918 | Total_Time:64.9873
+Testing batch: 121 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2903 | Total_Time:65.2933
+Testing batch: 122 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2932 | Total_Time:65.6059
+Testing batch: 123 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2892 | Total_Time:65.9212
+Testing batch: 124 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2987 | Total_Time:66.2267
+Testing batch: 125 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3028 | Total_Time:66.5367
+Testing batch: 126 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2911 | Total_Time:67.4944
+Testing batch: 127 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2875 | Total_Time:67.8145
+Testing batch: 128 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2915 | Total_Time:68.1272
+Testing batch: 129 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2979 | Total_Time:68.4269
+Testing batch: 130 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2988 | Total_Time:68.755
+Testing batch: 131 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2936 | Total_Time:69.0714
+Testing batch: 132 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3033 | Total_Time:70.1664
+Testing batch: 133 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2964 | Total_Time:70.4754
+Testing batch: 134 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2933 | Total_Time:70.8099
+Testing batch: 135 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2867 | Total_Time:71.148
+Testing batch: 136 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2937 | Total_Time:71.4614
+Testing batch: 137 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2923 | Total_Time:71.7918
+Testing batch: 138 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2938 | Total_Time:72.8342
+Testing batch: 139 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2923 | Total_Time:73.1336
+Testing batch: 140 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.298 | Total_Time:73.4363
+Testing batch: 141 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2978 | Total_Time:73.7498
+Testing batch: 142 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2978 | Total_Time:74.0571
+Testing batch: 143 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.29 | Total_Time:74.3743
+Testing batch: 144 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2911 | Total_Time:75.5427
+Testing batch: 145 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2929 | Total_Time:75.8432
+Testing batch: 146 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2863 | Total_Time:76.1758
+Testing batch: 147 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2992 | Total_Time:76.4833
+Testing batch: 148 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.303 | Total_Time:76.8011
+Testing batch: 149 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3033 | Total_Time:77.1048
+Testing batch: 150 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:78.3609
+Testing batch: 151 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2909 | Total_Time:78.6593
+Testing batch: 152 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2954 | Total_Time:78.962
+Testing batch: 153 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:79.2792
+Testing batch: 154 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2927 | Total_Time:79.5864
+Testing batch: 155 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2962 | Total_Time:79.8954
+Testing batch: 156 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2965 | Total_Time:80.924
+Testing batch: 157 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2955 | Total_Time:81.2293
+Testing batch: 158 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3053 | Total_Time:81.5371
+Testing batch: 159 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2861 | Total_Time:81.8684
+Testing batch: 160 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2948 | Total_Time:82.1709
+Testing batch: 161 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2985 | Total_Time:82.4932
+Testing batch: 162 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2969 | Total_Time:83.7255
+Testing batch: 163 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2963 | Total_Time:84.0359
+Testing batch: 164 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2978 | Total_Time:84.3557
+Testing batch: 165 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2937 | Total_Time:84.6734
+Testing batch: 166 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2925 | Total_Time:84.9804
+Testing batch: 167 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2927 | Total_Time:85.321
+Testing batch: 168 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2886 | Total_Time:86.1657
+Testing batch: 169 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2948 | Total_Time:86.4691
+Testing batch: 170 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3069 | Total_Time:86.7866
+Testing batch: 171 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2911 | Total_Time:87.1054
+Testing batch: 172 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2889 | Total_Time:87.443
+Testing batch: 173 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2954 | Total_Time:87.7748
+Testing batch: 174 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2853 | Total_Time:88.7103
+Testing batch: 175 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2944 | Total_Time:89.0318
+Testing batch: 176 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:89.3409
+Testing batch: 177 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2948 | Total_Time:89.6722
+Testing batch: 178 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2934 | Total_Time:89.9782
+Testing batch: 179 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.297 | Total_Time:90.3029
+Testing batch: 180 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2919 | Total_Time:91.3136
+Testing batch: 181 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2895 | Total_Time:91.629
+Testing batch: 182 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:91.9331
+Testing batch: 183 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2951 | Total_Time:92.2673
+Testing batch: 184 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2907 | Total_Time:92.5862
+Testing batch: 185 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2975 | Total_Time:92.8948
+Testing batch: 186 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2897 | Total_Time:93.892
+Testing batch: 187 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2897 | Total_Time:94.2267
+Testing batch: 188 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2949 | Total_Time:94.5392
+Testing batch: 189 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2947 | Total_Time:94.8403
+Testing batch: 190 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2946 | Total_Time:95.1454
+Testing batch: 191 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2901 | Total_Time:95.4839
+Testing batch: 192 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2973 | Total_Time:96.4414
+Testing batch: 193 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2922 | Total_Time:96.7523
+Testing batch: 194 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2953 | Total_Time:97.0879
+Testing batch: 195 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:97.3959
+Testing batch: 196 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2995 | Total_Time:97.7014
+Testing batch: 197 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.293 | Total_Time:98.0058
+Testing batch: 198 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2931 | Total_Time:99.0019
+Testing batch: 199 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2888 | Total_Time:99.3174
+Testing batch: 200 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2982 | Total_Time:99.6289
+Testing batch: 201 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2924 | Total_Time:99.9441
+Testing batch: 202 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2929 | Total_Time:100.2596
+Testing batch: 203 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2957 | Total_Time:100.5911
+Testing batch: 204 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.297 | Total_Time:101.5687
+Testing batch: 205 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2906 | Total_Time:101.8755
+Testing batch: 206 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2975 | Total_Time:102.1851
+Testing batch: 207 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2924 | Total_Time:102.5115
+Testing batch: 208 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2941 | Total_Time:102.8298
+Testing batch: 209 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2932 | Total_Time:103.1342
+Testing batch: 210 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2899 | Total_Time:104.1413
+Testing batch: 211 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2871 | Total_Time:104.4722
+Testing batch: 212 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:104.7873
+Testing batch: 213 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2945 | Total_Time:105.1315
+Testing batch: 214 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2909 | Total_Time:105.4501
+Testing batch: 215 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2991 | Total_Time:105.7505
+Testing batch: 216 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2963 | Total_Time:106.5388
+Testing batch: 217 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2882 | Total_Time:106.8504
+Testing batch: 218 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.293 | Total_Time:107.1769
+Testing batch: 219 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.289 | Total_Time:107.6801
+Testing batch: 220 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2891 | Total_Time:108.0164
+Testing batch: 221 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2968 | Total_Time:108.3366
+Testing batch: 222 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2904 | Total_Time:109.1495
+Testing batch: 223 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:109.4553
+Testing batch: 224 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:109.7572
+Testing batch: 225 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.294 | Total_Time:110.2845
+Testing batch: 226 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2901 | Total_Time:110.5799
+Testing batch: 227 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2947 | Total_Time:110.8864
+Testing batch: 228 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2923 | Total_Time:111.7659
+Testing batch: 229 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2873 | Total_Time:112.0858
+Testing batch: 230 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2977 | Total_Time:112.389
+Testing batch: 231 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2909 | Total_Time:112.8356
+Testing batch: 232 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2956 | Total_Time:113.1465
+Testing batch: 233 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2956 | Total_Time:113.4723
+Testing batch: 234 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2899 | Total_Time:114.1473
+Testing batch: 235 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2932 | Total_Time:114.4784
+Testing batch: 236 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2971 | Total_Time:114.8054
+Testing batch: 237 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2835 | Total_Time:115.4066
+Testing batch: 238 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.294 | Total_Time:115.7173
+Testing batch: 239 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:116.03
+Testing batch: 240 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2983 | Total_Time:116.7312
+Testing batch: 241 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2953 | Total_Time:117.0388
+Testing batch: 242 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.303 | Total_Time:117.3428
+Testing batch: 243 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.288 | Total_Time:117.985
+Testing batch: 244 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.29 | Total_Time:118.3071
+Testing batch: 245 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2923 | Total_Time:118.6175
+Testing batch: 246 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2891 | Total_Time:119.1644
+Testing batch: 247 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2956 | Total_Time:119.4755
+Testing batch: 248 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:119.7945
+Testing batch: 249 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2873 | Total_Time:120.5521
+Testing batch: 250 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2939 | Total_Time:120.8666
+Testing batch: 251 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2986 | Total_Time:121.1805
+Testing batch: 252 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2894 | Total_Time:121.7377
+Testing batch: 253 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2889 | Total_Time:122.0799
+Testing batch: 254 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.302 | Total_Time:122.3954
+Testing batch: 255 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3023 | Total_Time:123.1131
+Testing batch: 256 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2901 | Total_Time:123.4164
+Testing batch: 257 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:123.7331
+Testing batch: 258 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2933 | Total_Time:124.2796
+Testing batch: 259 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.295 | Total_Time:124.5864
+Testing batch: 260 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.297 | Total_Time:124.9147
+Testing batch: 261 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:125.8064
+Testing batch: 262 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2951 | Total_Time:126.1063
+Testing batch: 263 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3026 | Total_Time:126.4162
+Testing batch: 264 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3026 | Total_Time:126.8031
+Testing batch: 265 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2911 | Total_Time:127.1263
+Testing batch: 266 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2863 | Total_Time:127.4569
+Testing batch: 267 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2872 | Total_Time:128.3339
+Testing batch: 268 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2946 | Total_Time:128.6407
+Testing batch: 269 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:128.9454
+Testing batch: 270 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2923 | Total_Time:129.4113
+Testing batch: 271 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2972 | Total_Time:129.7187
+Testing batch: 272 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:130.0228
+Testing batch: 273 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2897 | Total_Time:130.9549
+Testing batch: 274 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2924 | Total_Time:131.2876
+Testing batch: 275 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3001 | Total_Time:131.5974
+Testing batch: 276 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2936 | Total_Time:131.91
+Testing batch: 277 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:132.2193
+Testing batch: 278 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:132.5525
+Testing batch: 279 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2882 | Total_Time:133.6152
+Testing batch: 280 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2915 | Total_Time:133.9228
+Testing batch: 281 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:134.2353
+Testing batch: 282 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:134.5419
+Testing batch: 283 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2916 | Total_Time:134.8714
+Testing batch: 284 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2936 | Total_Time:135.1777
+Testing batch: 285 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.292 | Total_Time:136.3176
+Testing batch: 286 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2935 | Total_Time:136.6253
+Testing batch: 287 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3026 | Total_Time:136.9338
+Testing batch: 288 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2947 | Total_Time:137.2604
+Testing batch: 289 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2995 | Total_Time:137.5783
+Testing batch: 290 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2959 | Total_Time:137.8798
+Testing batch: 291 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.287 | Total_Time:139.0082
+Testing batch: 292 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2936 | Total_Time:139.3127
+Testing batch: 293 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:139.6161
+Testing batch: 294 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2938 | Total_Time:139.9215
+Testing batch: 295 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2946 | Total_Time:140.2317
+Testing batch: 296 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2982 | Total_Time:140.5339
+Testing batch: 297 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2912 | Total_Time:141.7052
+Testing batch: 298 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2893 | Total_Time:142.018
+Testing batch: 299 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:142.3194
+Testing batch: 300 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:142.6695
+Testing batch: 301 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2929 | Total_Time:142.9922
+Testing batch: 302 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2975 | Total_Time:143.3062
+Testing batch: 303 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2893 | Total_Time:144.0235
+Testing batch: 304 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2956 | Total_Time:144.3201
+Testing batch: 305 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2984 | Total_Time:144.6316
+Testing batch: 306 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:144.933
+Testing batch: 307 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2986 | Total_Time:145.232
+Testing batch: 308 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2977 | Total_Time:145.53
+Testing batch: 309 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.298 | Total_Time:145.8282
+Testing batch: 310 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2982 | Total_Time:146.1266
+Testing batch: 311 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2977 | Total_Time:146.4245
+Testing batch: 312 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.165 | Total_Time:146.5896
+====> Test set: Average Top1_Accuracy_V:0.9866 | Average Top5_Accuracy_V:1.0 | Total Time:146.5906
+1e-08
+Training starts..
+Train Epoch: 2 [0/100000 (0%)] | Loss: 1.169138 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.0623 | Total_Time:1.4584
+Train Epoch: 2 [1600/100000 (2%)] | Loss: 0.444101 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2284 | Total_Time:49.7856
+Train Epoch: 2 [3200/100000 (3%)] | Loss: 0.619267 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2808 | Total_Time:98.2066
+Train Epoch: 2 [4800/100000 (5%)] | Loss: 0.581903 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6225 | Total_Time:146.6501
+Train Epoch: 2 [6400/100000 (6%)] | Loss: 0.537079 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4849 | Total_Time:195.1066
+Train Epoch: 2 [8000/100000 (8%)] | Loss: 1.503493 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.3619 | Total_Time:243.5911
+Train Epoch: 2 [9600/100000 (10%)] | Loss: 0.629855 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6498 | Total_Time:292.0759
+Train Epoch: 2 [11200/100000 (11%)] | Loss: 1.060484 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.5173 | Total_Time:340.545
+Train Epoch: 2 [12800/100000 (13%)] | Loss: 1.288895 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4687 | Total_Time:389.017
+Train Epoch: 2 [14400/100000 (14%)] | Loss: 0.564184 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4314 | Total_Time:437.5463
+Train Epoch: 2 [16000/100000 (16%)] | Loss: 1.556232 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.8227 | Total_Time:486.0546
+Train Epoch: 2 [17600/100000 (18%)] | Loss: 0.614839 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2708 | Total_Time:534.5261
+Train Epoch: 2 [19200/100000 (19%)] | Loss: 0.745684 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.7344 | Total_Time:583.0021
+Train Epoch: 2 [20800/100000 (21%)] | Loss: 0.512860 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5436 | Total_Time:631.493
+Train Epoch: 2 [22400/100000 (22%)] | Loss: 1.078700 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4335 | Total_Time:680.0025
+Train Epoch: 2 [24000/100000 (24%)] | Loss: 0.805678 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4609 | Total_Time:728.4751
+Train Epoch: 2 [25600/100000 (26%)] | Loss: 0.506633 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.8158 | Total_Time:776.9815
+Train Epoch: 2 [27200/100000 (27%)] | Loss: 0.543898 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.551 | Total_Time:825.4728
+Train Epoch: 2 [28800/100000 (29%)] | Loss: 1.274443 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.4841 | Total_Time:873.9497
+Train Epoch: 2 [30400/100000 (30%)] | Loss: 0.791282 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6591 | Total_Time:922.4211
+Train Epoch: 2 [32000/100000 (32%)] | Loss: 0.622355 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5163 | Total_Time:970.9445
+Train Epoch: 2 [33600/100000 (34%)] | Loss: 0.719294 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.2597 | Total_Time:1019.4105
+Train Epoch: 2 [35200/100000 (35%)] | Loss: 1.119350 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4288 | Total_Time:1067.9225
+Train Epoch: 2 [36800/100000 (37%)] | Loss: 0.675396 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6472 | Total_Time:1116.4251
+Train Epoch: 2 [38400/100000 (38%)] | Loss: 0.551253 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5511 | Total_Time:1164.9218
+Train Epoch: 2 [40000/100000 (40%)] | Loss: 0.581163 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4927 | Total_Time:1213.4053
+Train Epoch: 2 [41600/100000 (42%)] | Loss: 0.400696 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2824 | Total_Time:1261.942
+Train Epoch: 2 [43200/100000 (43%)] | Loss: 0.617347 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.7843 | Total_Time:1310.4358
+Train Epoch: 2 [44800/100000 (45%)] | Loss: 0.719143 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4016 | Total_Time:1358.8949
+Train Epoch: 2 [46400/100000 (46%)] | Loss: 0.669356 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3701 | Total_Time:1407.3728
+Train Epoch: 2 [48000/100000 (48%)] | Loss: 0.568178 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.376 | Total_Time:1455.8381
+Train Epoch: 2 [49600/100000 (50%)] | Loss: 0.891509 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3571 | Total_Time:1504.3235
+Train Epoch: 2 [51200/100000 (51%)] | Loss: 0.698015 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3006 | Total_Time:1552.7991
+Train Epoch: 2 [52800/100000 (53%)] | Loss: 0.860734 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.24 | Total_Time:1601.2681
+Train Epoch: 2 [54400/100000 (54%)] | Loss: 1.988510 | Top1_Accuracy_V:0.90625 | Top5_Accuracy_V:1.0 | Time:48.6524 | Total_Time:1649.7968
+Train Epoch: 2 [56000/100000 (56%)] | Loss: 0.930465 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6376 | Total_Time:1698.2613
+Train Epoch: 2 [57600/100000 (58%)] | Loss: 1.008923 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.5382 | Total_Time:1746.7662
+Train Epoch: 2 [59200/100000 (59%)] | Loss: 1.177027 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.5496 | Total_Time:1795.2297
+Train Epoch: 2 [60800/100000 (61%)] | Loss: 1.893114 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.5927 | Total_Time:1843.7296
+Train Epoch: 2 [62400/100000 (62%)] | Loss: 0.757337 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4283 | Total_Time:1892.1897
+Train Epoch: 2 [64000/100000 (64%)] | Loss: 1.107506 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.516 | Total_Time:1940.6914
+Train Epoch: 2 [65600/100000 (66%)] | Loss: 0.586426 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3903 | Total_Time:1989.1866
+Train Epoch: 2 [67200/100000 (67%)] | Loss: 0.590101 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.473 | Total_Time:2037.6588
+Train Epoch: 2 [68800/100000 (69%)] | Loss: 0.611881 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.8654 | Total_Time:2086.1367
+Train Epoch: 2 [70400/100000 (70%)] | Loss: 0.654680 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3096 | Total_Time:2134.6176
+Train Epoch: 2 [72000/100000 (72%)] | Loss: 0.847272 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4293 | Total_Time:2183.0781
+Train Epoch: 2 [73600/100000 (74%)] | Loss: 1.211032 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.3387 | Total_Time:2231.5567
+Train Epoch: 2 [75200/100000 (75%)] | Loss: 0.572922 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6025 | Total_Time:2280.1062
+Train Epoch: 2 [76800/100000 (77%)] | Loss: 0.904059 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.521 | Total_Time:2328.601
+Train Epoch: 2 [78400/100000 (78%)] | Loss: 0.722003 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6992 | Total_Time:2377.079
+Train Epoch: 2 [80000/100000 (80%)] | Loss: 0.740352 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.2585 | Total_Time:2425.6124
+Train Epoch: 2 [81600/100000 (82%)] | Loss: 0.836451 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5626 | Total_Time:2474.1259
+Train Epoch: 2 [83200/100000 (83%)] | Loss: 1.077771 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.64 | Total_Time:2522.6582
+Train Epoch: 2 [84800/100000 (85%)] | Loss: 0.854625 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.481 | Total_Time:2571.1601
+Train Epoch: 2 [86400/100000 (86%)] | Loss: 0.462627 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3878 | Total_Time:2619.6331
+Train Epoch: 2 [88000/100000 (88%)] | Loss: 0.689879 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3786 | Total_Time:2668.1082
+Train Epoch: 2 [89600/100000 (90%)] | Loss: 1.256236 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.4197 | Total_Time:2716.6053
+Train Epoch: 2 [91200/100000 (91%)] | Loss: 1.095242 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.3983 | Total_Time:2765.1109
+Train Epoch: 2 [92800/100000 (93%)] | Loss: 2.026499 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:48.649 | Total_Time:2813.6131
+Train Epoch: 2 [94400/100000 (94%)] | Loss: 0.678165 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3863 | Total_Time:2862.133
+Train Epoch: 2 [96000/100000 (96%)] | Loss: 1.026729 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3875 | Total_Time:2910.5944
+Train Epoch: 2 [97600/100000 (98%)] | Loss: 0.718756 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5112 | Total_Time:2959.0948
+Train Epoch: 2 [99200/100000 (99%)] | Loss: 0.574285 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.619 | Total_Time:3007.6134
+model saved!
+====> Epoch: 2 | Average loss: 0.8337 | Average Top1_Accuracy_V:0.99009 | Average Top5_Accuracy_V:1.0 | Time:3031.6204
+testing starts..
+Testing batch: 0 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3103 | Total_Time:0.7611
+Testing batch: 1 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2971 | Total_Time:1.0588
+Testing batch: 2 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3059 | Total_Time:1.3651
+Testing batch: 3 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3035 | Total_Time:1.6691
+Testing batch: 4 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3036 | Total_Time:1.9732
+Testing batch: 5 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3006 | Total_Time:2.2742
+Testing batch: 6 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:2.5765
+Testing batch: 7 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:2.8786
+Testing batch: 8 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:3.1805
+Testing batch: 9 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3042 | Total_Time:3.4852
+Testing batch: 10 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3023 | Total_Time:3.7879
+Testing batch: 11 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:4.0893
+Testing batch: 12 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:4.3921
+Testing batch: 13 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3023 | Total_Time:4.6948
+Testing batch: 14 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:4.9957
+Testing batch: 15 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:5.2981
+Testing batch: 16 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:5.5998
+Testing batch: 17 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2985 | Total_Time:5.8989
+Testing batch: 18 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:6.2015
+Testing batch: 19 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3001 | Total_Time:6.5023
+Testing batch: 20 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3028 | Total_Time:6.8058
+Testing batch: 21 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2992 | Total_Time:7.1056
+Testing batch: 22 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3 | Total_Time:7.4063
+Testing batch: 23 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3029 | Total_Time:7.7098
+Testing batch: 24 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:8.0094
+Testing batch: 25 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:8.3114
+Testing batch: 26 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2996 | Total_Time:8.6116
+Testing batch: 27 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2985 | Total_Time:8.9108
+Testing batch: 28 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:9.2139
+Testing batch: 29 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:9.5134
+Testing batch: 30 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:9.8161
+Testing batch: 31 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:10.1179
+Testing batch: 32 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2986 | Total_Time:10.4172
+Testing batch: 33 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:10.7199
+Testing batch: 34 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:11.0203
+Testing batch: 35 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2988 | Total_Time:11.3197
+Testing batch: 36 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3001 | Total_Time:11.6204
+Testing batch: 37 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:11.9222
+Testing batch: 38 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3025 | Total_Time:12.2254
+Testing batch: 39 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2985 | Total_Time:12.5244
+Testing batch: 40 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:12.8254
+Testing batch: 41 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3002 | Total_Time:13.1263
+Testing batch: 42 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:13.4283
+Testing batch: 43 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:13.7301
+Testing batch: 44 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2977 | Total_Time:14.0284
+Testing batch: 45 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:14.3294
+Testing batch: 46 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3033 | Total_Time:14.6333
+Testing batch: 47 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:14.936
+Testing batch: 48 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2994 | Total_Time:15.236
+Testing batch: 49 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:15.5375
+Testing batch: 50 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2995 | Total_Time:15.8376
+Testing batch: 51 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:16.1396
+Testing batch: 52 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:16.4423
+Testing batch: 53 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3025 | Total_Time:16.7454
+Testing batch: 54 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2997 | Total_Time:17.0462
+Testing batch: 55 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2992 | Total_Time:17.346
+Testing batch: 56 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:17.6482
+Testing batch: 57 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.298 | Total_Time:17.9468
+Testing batch: 58 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:18.2487
+Testing batch: 59 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:18.5505
+Testing batch: 60 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:18.8516
+Testing batch: 61 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:19.1521
+Testing batch: 62 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:19.4538
+Testing batch: 63 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2987 | Total_Time:19.7531
+Testing batch: 64 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:20.0546
+Testing batch: 65 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3007 | Total_Time:20.356
+Testing batch: 66 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:20.6578
+Testing batch: 67 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:20.9603
+Testing batch: 68 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2992 | Total_Time:21.2602
+Testing batch: 69 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2999 | Total_Time:21.5607
+Testing batch: 70 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:21.8618
+Testing batch: 71 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:22.1641
+Testing batch: 72 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:22.4662
+Testing batch: 73 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:22.7688
+Testing batch: 74 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:23.0682
+Testing batch: 75 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:23.3707
+Testing batch: 76 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2992 | Total_Time:23.6704
+Testing batch: 77 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:23.9736
+Testing batch: 78 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:24.2732
+Testing batch: 79 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2995 | Total_Time:24.575
+Testing batch: 80 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:24.8764
+Testing batch: 81 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2981 | Total_Time:25.1752
+Testing batch: 82 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:25.4774
+Testing batch: 83 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:25.7785
+Testing batch: 84 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2999 | Total_Time:26.0791
+Testing batch: 85 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:26.381
+Testing batch: 86 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:26.6828
+Testing batch: 87 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2997 | Total_Time:26.9831
+Testing batch: 88 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:27.2845
+Testing batch: 89 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:27.587
+Testing batch: 90 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:27.889
+Testing batch: 91 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2991 | Total_Time:28.1888
+Testing batch: 92 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:28.4917
+Testing batch: 93 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.298 | Total_Time:28.7903
+Testing batch: 94 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3007 | Total_Time:29.0916
+Testing batch: 95 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.302 | Total_Time:29.3942
+Testing batch: 96 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:29.6937
+Testing batch: 97 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3006 | Total_Time:29.9949
+Testing batch: 98 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:30.2968
+Testing batch: 99 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:30.5992
+Testing batch: 100 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2999 | Total_Time:30.8997
+Testing batch: 101 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2997 | Total_Time:31.2001
+Testing batch: 102 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:31.5027
+Testing batch: 103 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2994 | Total_Time:31.8027
+Testing batch: 104 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:32.105
+Testing batch: 105 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3007 | Total_Time:32.4063
+Testing batch: 106 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2987 | Total_Time:32.7056
+Testing batch: 107 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:33.0077
+Testing batch: 108 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3 | Total_Time:33.3083
+Testing batch: 109 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:33.6092
+Testing batch: 110 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:33.9102
+Testing batch: 111 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:34.2123
+Testing batch: 112 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:34.5144
+Testing batch: 113 | Top1_Accuracy_V:0.875 | Top5_Accuracy_V:1.0 | Time:0.2995 | Total_Time:34.8145
+Testing batch: 114 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:35.1158
+Testing batch: 115 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:35.4177
+Testing batch: 116 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:35.7197
+Testing batch: 117 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:36.0222
+Testing batch: 118 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2987 | Total_Time:36.3215
+Testing batch: 119 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:36.6231
+Testing batch: 120 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:36.9252
+Testing batch: 121 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:37.2283
+Testing batch: 122 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2991 | Total_Time:37.5279
+Testing batch: 123 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:37.8283
+Testing batch: 124 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:38.1306
+Testing batch: 125 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:38.4317
+Testing batch: 126 | Top1_Accuracy_V:0.90625 | Top5_Accuracy_V:1.0 | Time:0.3 | Total_Time:38.7323
+Testing batch: 127 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2984 | Total_Time:39.0314
+Testing batch: 128 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:39.3334
+Testing batch: 129 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2996 | Total_Time:39.6341
+Testing batch: 130 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:39.9355
+Testing batch: 131 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:40.2372
+Testing batch: 132 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:40.5391
+Testing batch: 133 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:40.8401
+Testing batch: 134 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3007 | Total_Time:41.1416
+Testing batch: 135 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:41.4433
+Testing batch: 136 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:41.7451
+Testing batch: 137 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:42.0479
+Testing batch: 138 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:42.3488
+Testing batch: 139 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2995 | Total_Time:42.6488
+Testing batch: 140 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:42.9503
+Testing batch: 141 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:43.2523
+Testing batch: 142 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2985 | Total_Time:43.5515
+Testing batch: 143 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:43.8529
+Testing batch: 144 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:44.1548
+Testing batch: 145 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:44.4565
+Testing batch: 146 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:44.7591
+Testing batch: 147 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2981 | Total_Time:45.0578
+Testing batch: 148 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3002 | Total_Time:45.3586
+Testing batch: 149 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:45.6597
+Testing batch: 150 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:45.9614
+Testing batch: 151 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:46.263
+Testing batch: 152 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:46.564
+Testing batch: 153 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:46.8664
+Testing batch: 154 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2997 | Total_Time:47.1672
+Testing batch: 155 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:47.4687
+Testing batch: 156 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:47.7704
+Testing batch: 157 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:48.0714
+Testing batch: 158 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:48.3728
+Testing batch: 159 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3007 | Total_Time:48.6741
+Testing batch: 160 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:48.9758
+Testing batch: 161 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:49.2783
+Testing batch: 162 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3001 | Total_Time:49.579
+Testing batch: 163 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3029 | Total_Time:49.8825
+Testing batch: 164 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2987 | Total_Time:50.1818
+Testing batch: 165 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2996 | Total_Time:50.482
+Testing batch: 166 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:50.7843
+Testing batch: 167 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2988 | Total_Time:51.0837
+Testing batch: 168 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:51.3852
+Testing batch: 169 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:51.6868
+Testing batch: 170 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:51.9885
+Testing batch: 171 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:52.2913
+Testing batch: 172 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:52.5908
+Testing batch: 173 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:52.8917
+Testing batch: 174 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3006 | Total_Time:53.1928
+Testing batch: 175 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:53.4943
+Testing batch: 176 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3028 | Total_Time:53.7978
+Testing batch: 177 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2991 | Total_Time:54.0976
+Testing batch: 178 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:54.398
+Testing batch: 179 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2997 | Total_Time:54.6988
+Testing batch: 180 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:55.0005
+Testing batch: 181 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:55.3028
+Testing batch: 182 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:55.604
+Testing batch: 183 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:55.905
+Testing batch: 184 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.298 | Total_Time:56.2036
+Testing batch: 185 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3023 | Total_Time:56.5065
+Testing batch: 186 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:56.808
+Testing batch: 187 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:57.1097
+Testing batch: 188 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3006 | Total_Time:57.4108
+Testing batch: 189 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:57.713
+Testing batch: 190 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:58.0149
+Testing batch: 191 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3 | Total_Time:58.3155
+Testing batch: 192 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:58.6164
+Testing batch: 193 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2999 | Total_Time:58.917
+Testing batch: 194 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:59.2186
+Testing batch: 195 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:59.5209
+Testing batch: 196 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3003 | Total_Time:59.8217
+Testing batch: 197 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:60.1221
+Testing batch: 198 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:60.4231
+Testing batch: 199 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:60.7251
+Testing batch: 200 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:61.0268
+Testing batch: 201 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:61.3292
+Testing batch: 202 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3029 | Total_Time:61.6328
+Testing batch: 203 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:61.9324
+Testing batch: 204 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3 | Total_Time:62.2336
+Testing batch: 205 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:62.5354
+Testing batch: 206 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:62.8349
+Testing batch: 207 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3001 | Total_Time:63.1356
+Testing batch: 208 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:63.4372
+Testing batch: 209 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:63.7392
+Testing batch: 210 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:64.0407
+Testing batch: 211 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2986 | Total_Time:64.3398
+Testing batch: 212 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:64.6414
+Testing batch: 213 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:64.9429
+Testing batch: 214 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:65.2457
+Testing batch: 215 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:65.5485
+Testing batch: 216 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3001 | Total_Time:65.8492
+Testing batch: 217 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:66.1488
+Testing batch: 218 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:66.4506
+Testing batch: 219 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:66.753
+Testing batch: 220 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:67.0526
+Testing batch: 221 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2999 | Total_Time:67.3531
+Testing batch: 222 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:67.6542
+Testing batch: 223 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:67.956
+Testing batch: 224 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:68.2581
+Testing batch: 225 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:68.5611
+Testing batch: 226 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2991 | Total_Time:68.8608
+Testing batch: 227 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:69.1628
+Testing batch: 228 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3029 | Total_Time:69.4662
+Testing batch: 229 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2991 | Total_Time:69.7663
+Testing batch: 230 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.299 | Total_Time:70.0658
+Testing batch: 231 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3002 | Total_Time:70.3667
+Testing batch: 232 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:70.6678
+Testing batch: 233 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:70.9689
+Testing batch: 234 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:71.2706
+Testing batch: 235 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:71.5724
+Testing batch: 236 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:71.8742
+Testing batch: 237 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:72.1758
+Testing batch: 238 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:72.478
+Testing batch: 239 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3026 | Total_Time:72.7812
+Testing batch: 240 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2958 | Total_Time:73.0869
+Testing batch: 241 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3004 | Total_Time:73.3877
+Testing batch: 242 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2954 | Total_Time:74.3476
+Testing batch: 243 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:74.6479
+Testing batch: 244 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3063 | Total_Time:74.9545
+Testing batch: 245 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3025 | Total_Time:75.2573
+Testing batch: 246 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3058 | Total_Time:75.5635
+Testing batch: 247 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3028 | Total_Time:75.8666
+Testing batch: 248 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3011 | Total_Time:76.168
+Testing batch: 249 | Top1_Accuracy_V:0.90625 | Top5_Accuracy_V:1.0 | Time:0.3023 | Total_Time:76.4706
+Testing batch: 250 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3074 | Total_Time:76.7784
+Testing batch: 251 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3007 | Total_Time:77.0793
+Testing batch: 252 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:77.3807
+Testing batch: 253 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:77.682
+Testing batch: 254 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3048 | Total_Time:77.9872
+Testing batch: 255 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:78.2899
+Testing batch: 256 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:78.5918
+Testing batch: 257 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3001 | Total_Time:78.8922
+Testing batch: 258 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3006 | Total_Time:79.1932
+Testing batch: 259 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:79.4954
+Testing batch: 260 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3029 | Total_Time:79.7986
+Testing batch: 261 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2993 | Total_Time:80.0982
+Testing batch: 262 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:80.3994
+Testing batch: 263 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.301 | Total_Time:80.7006
+Testing batch: 264 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:81.0028
+Testing batch: 265 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3037 | Total_Time:81.3067
+Testing batch: 266 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:81.6068
+Testing batch: 267 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3034 | Total_Time:81.9104
+Testing batch: 268 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.302 | Total_Time:82.2128
+Testing batch: 269 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:82.5145
+Testing batch: 270 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3021 | Total_Time:82.8169
+Testing batch: 271 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3002 | Total_Time:83.1174
+Testing batch: 272 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:83.4198
+Testing batch: 273 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:83.7214
+Testing batch: 274 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:84.0226
+Testing batch: 275 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3009 | Total_Time:84.3237
+Testing batch: 276 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2998 | Total_Time:84.6238
+Testing batch: 277 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3022 | Total_Time:84.9263
+Testing batch: 278 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3028 | Total_Time:85.2295
+Testing batch: 279 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3006 | Total_Time:85.531
+Testing batch: 280 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:85.8326
+Testing batch: 281 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3002 | Total_Time:86.1331
+Testing batch: 282 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3005 | Total_Time:86.434
+Testing batch: 283 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:86.7351
+Testing batch: 284 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:87.0363
+Testing batch: 285 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3015 | Total_Time:87.338
+Testing batch: 286 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3 | Total_Time:87.6383
+Testing batch: 287 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2997 | Total_Time:87.939
+Testing batch: 288 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.302 | Total_Time:88.2413
+Testing batch: 289 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:88.5436
+Testing batch: 290 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:88.8451
+Testing batch: 291 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2985 | Total_Time:89.1439
+Testing batch: 292 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:89.4455
+Testing batch: 293 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3014 | Total_Time:89.7472
+Testing batch: 294 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2973 | Total_Time:90.0447
+Testing batch: 295 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3026 | Total_Time:90.3476
+Testing batch: 296 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3013 | Total_Time:90.6492
+Testing batch: 297 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3018 | Total_Time:90.9513
+Testing batch: 298 | Top1_Accuracy_V:0.9375 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:91.2531
+Testing batch: 299 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:91.5543
+Testing batch: 300 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3024 | Total_Time:91.8573
+Testing batch: 301 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2989 | Total_Time:92.1565
+Testing batch: 302 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:92.4583
+Testing batch: 303 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:92.7604
+Testing batch: 304 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.3008 | Total_Time:93.0615
+Testing batch: 305 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3017 | Total_Time:93.3634
+Testing batch: 306 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3019 | Total_Time:93.6655
+Testing batch: 307 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3006 | Total_Time:93.9663
+Testing batch: 308 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3016 | Total_Time:94.268
+Testing batch: 309 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.3012 | Total_Time:94.5693
+Testing batch: 310 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.2995 | Total_Time:94.869
+Testing batch: 311 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:0.2954 | Total_Time:95.2024
+Testing batch: 312 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:0.1629 | Total_Time:95.3655
+====> Test set: Average Top1_Accuracy_V:0.986 | Average Top5_Accuracy_V:1.0 | Total Time:95.6912
+1e-09
+Training starts..
+Train Epoch: 3 [0/100000 (0%)] | Loss: 0.539759 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3215 | Total_Time:1.536
+Train Epoch: 3 [1600/100000 (2%)] | Loss: 0.594238 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5865 | Total_Time:50.0239
+Train Epoch: 3 [3200/100000 (3%)] | Loss: 0.642851 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5615 | Total_Time:98.6558
+Train Epoch: 3 [4800/100000 (5%)] | Loss: 0.546914 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.6481 | Total_Time:147.1949
+Train Epoch: 3 [6400/100000 (6%)] | Loss: 0.694057 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.235 | Total_Time:195.7548
+Train Epoch: 3 [8000/100000 (8%)] | Loss: 1.133334 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4063 | Total_Time:244.4529
+Train Epoch: 3 [9600/100000 (10%)] | Loss: 0.904584 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3616 | Total_Time:292.9054
+Train Epoch: 3 [11200/100000 (11%)] | Loss: 1.888490 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.7532 | Total_Time:341.4288
+Train Epoch: 3 [12800/100000 (13%)] | Loss: 1.083988 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.5628 | Total_Time:389.9098
+Train Epoch: 3 [14400/100000 (14%)] | Loss: 0.740831 | Top1_Accuracy_V:0.96875 | Top5_Accuracy_V:1.0 | Time:48.4211 | Total_Time:438.3849
+Train Epoch: 3 [16000/100000 (16%)] | Loss: 0.656312 | Top1_Accuracy_V:1.0 | Top5_Accuracy_V:1.0 | Time:48.3543 | Total_Time:486.8531
