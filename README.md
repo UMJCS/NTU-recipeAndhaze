@@ -109,5 +109,9 @@ TodoList
 #### exp16-retrain-with-exp13-epoch8 --->  epoch 5* = Top1_Accuracy_V:0.8203564356435643
 
 ### 2018.8.29
-#### haze exp1 -> 1e-4 --> epoch7* lr = 1-e6  Average Top1_Accuracy_V:0.9872 | Average Top5_Accuracy_V:1.0 
-#### retrain use epoch10 --> lr = 1e-8
+#### Haze cloudy dataset exp1 -> 1e-4 --> epoch7* lr = 1-e6  Average Top1_Accuracy_V:0.9872 | Average Top5_Accuracy_V:1.0 
+#### retrain use epoch10 --> lr = 1e-8 0.9866
+#### exp2 validation perportion 7:3 -->  lr = 1e-5 --> epoch5* Average Top1_Accuracy_V:0.8815 
+#### Haze sunny dataset exp1 -> 1e-5 --> epoch8* lr = 1e-07 Average Top1_Accuracy_V:0.9400602085797226
+#### exp2 7:3 validation --> epoch10* lr = 1e-08 Average Top1_Accuracy_V:0.8972691108482959
+
