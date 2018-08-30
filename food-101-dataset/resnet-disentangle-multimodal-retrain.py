@@ -556,9 +556,9 @@ test_loader = torch.utils.data.DataLoader(
 
 # —Model training & testing———————————————————————————————————————————————————————————————————————————————————————————————————————
 #model = resnet50(pretrained=True)
-model= torch.load('exp13_ingredient_1e-05_8.pth')
+model = torch.load('exp13_ingredient_1e-05_8.pth')
 if CUDA:
-	model = model.cuda(0)
+	model = model.cuda()
 	model = nn.DataParallel(model)
     
 if CUDA==0:
