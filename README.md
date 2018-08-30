@@ -107,3 +107,7 @@ TodoList
 ### 2018.8.28
 #### exp13-add ingredient  -> epoch 8 = 0.818178 epoch9* = 0.81932
 #### exp16-retrain-with-exp13-epoch8 --->  epoch 5* = Top1_Accuracy_V:0.8203564356435643
+
+### 2018.8.29
+#### haze exp1 -> 1e-4 --> epoch7* lr = 1-e6  Average Top1_Accuracy_V:0.9872 | Average Top5_Accuracy_V:1.0 
+#### retrain use epoch10 --> lr = 1e-8
