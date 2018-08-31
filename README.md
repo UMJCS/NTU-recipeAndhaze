@@ -115,3 +115,7 @@ TodoList
 #### Haze sunny dataset exp1 -> 1e-5 --> epoch8* lr = 1e-07 Average Top1_Accuracy_V:0.9400602085797226
 #### exp2 7:3 validation --> epoch10* lr = 1e-08 Average Top1_Accuracy_V:0.8972691108482959
 
+### 2018.8.30-8.31
+#### Test and modify loss function 
+#### --> 1. R value as paper--> epoch7= Average Top1_Accuracy_V:0.9805
+#### --> 2. Normal distribution curve function--> Average Top1_Accuracy_V:0.8802
