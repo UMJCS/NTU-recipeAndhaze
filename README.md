@@ -117,5 +117,5 @@ TodoList
 
 ### 2018.8.30-8.31
 #### Test and modify loss function 
-#### --> 1. R value as paper--> epoch7= Average Top1_Accuracy_V:0.9805
+#### --> 1. R value as paper--> epoch8 = Average Top1_Accuracy_V:0.9837
 #### --> 2. Normal distribution curve function--> Average Top1_Accuracy_V:0.8802
